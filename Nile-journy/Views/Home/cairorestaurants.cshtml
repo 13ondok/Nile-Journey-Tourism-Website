@@ -1,0 +1,369 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/all.min.css">
+    <link rel="stylesheet" href="~/css/home.css">
+    <link rel="stylesheet" href="~/css/cairo.css">
+    <link rel="stylesheet" href="~/css/cairo_hotels.css">
+    <link rel="stylesheet" href="~/css/cairo_restaurants.css">
+    <title>Nile Journey</title>
+</head>
+
+<body>
+
+    <div class="nav_container">
+        <nav>
+            <div class="logo">
+                <i class="fa-regular fa-compass" style="color: #ffffff;"></i>
+                <a class="logo_up" href="#">Nile Journey</a>
+                <ul class="navigation">
+                    <li><a href="~/Home/home_success">Home</a></li>
+                    <li><a href="~/Home/review">Review</a></li>
+                    <li><a href="~/Home/favorites">Favorite</a></li>
+                    <li><a href="~/Home/cairo">About Cairo</a></li>
+                </ul>
+            </div>
+            <div class="profile">
+                <div class="search">
+                    <input type="text" name="search">
+                    <a class="magnyfing" href="#">
+                        <i class="fa-solid fa-magnifying-glass searching"
+                           style="color: #ffffff;"></i>
+                    </a>
+                </div>
+                <div class="links">
+                    <a href="profile.html"><i class="fa-solid fa-user" style="color: #ffffff;"></i></a>
+                    <a href="#" class="log_out">Log out</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="landing">
+        <div class="container">
+            <h1>Restaurants</h1>
+        </div>
+    </div>
+
+    <div class="hotels">
+        <div class="filter">
+            <button>Filter<i class="fa-solid fa-filter" style="color: #000000;"></i></button>
+        </div>
+        <div class="container">
+            <div class="cards">
+                <div class="card">
+                    <img src="~/img/restaurant_1.jpeg" alt="">
+                    <div class="content">
+                        <h2>Crimson Bar & Grill</h2>
+                        <div class="info">
+                            <div class="details">
+                                <div class="location">
+                                    <a href="">
+                                        <i class="fa-solid fa-location-dot" style="color: #000000;"></i>Cairo,
+                                        Egypt
+                                    </a>
+                                </div>
+                                <div class="stars">
+                                    <div class="star">
+                                        <i class="fa-solid fa-star" style="color: #080808;"></i>
+                                        <i class="fa-solid fa-star" style="color: #080808;"></i>
+                                        <i class="fa-solid fa-star" style="color: #080808;"></i>
+                                        <i class="fa-regular fa-star" style="color: #080808;"></i>
+                                        <i class="fa-regular fa-star" style="color: #080808;"></i>
+                                    </div>
+                                    <p>(234)</p>
+                                </div>
+                                <div class="more">
+                                    <a href="#">Show More</a>
+                                </div>
+                            </div>
+                            <div class="about">
+                                <p>
+                                    Amazing place for a diner with a view on the Nile. It is a rooftop restaurant with
+                                    excellent and very fresh food. The sea bass was just perfect and the starters were
+                                    great. The staff was very professional and the sphere was magic
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="favorite" href="#"><i class="fa-regular fa-heart" style="color: #fa0000;"></i></a>
+                </div>
+                <div class="card">
+                    <img src="~/img/restaurant_2.jpeg" alt="">
+                    <div class="content">
+                        <h2>La Zisa</h2>
+                        <div class="info">
+                            <div class="details">
+                                <div class="location">
+                                    <a href="">
+                                        <i class="fa-solid fa-location-dot" style="color: #000000;"></i>2 Kasr El
+                                        Nile St Tahrir Square
+                                        ,Cairo Egypt
+                                    </a>
+                                </div>
+                                <div class="stars">
+                                    <div class="star">
+                                        <i class="fa-solid fa-star" style="color: #080808;"></i>
+                                        <i class="fa-solid fa-star" style="color: #080808;"></i>
+                                        <i class="fa-solid fa-star" style="color: #080808;"></i>
+                                        <i class="fa-regular fa-star" style="color: #080808;"></i>
+                                        <i class="fa-regular fa-star" style="color: #080808;"></i>
+                                    </div>
+                                    <p>(234)</p>
+                                </div>
+                                <div class="more">
+                                    <a href="#">Show More</a>
+                                </div>
+                            </div>
+                            <div class="about">
+                                <p>
+                                    La Zisa provides a lovely breakfast for guests of the St Regis hotel but they are
+                                    also worth enjoying for their Italian fare at lunch or dinner. It’s quiet, the Nile
+                                    views are beautiful, and both the pasta and risotto I had were so good. The service
+                                    is fantastic
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="favorite" href="#"><i class="fa-regular fa-heart" style="color: #fa0000;"></i></a>
+                </div>
+                <div class="card">
+                    <img src="~/img/restaurant_3.jpeg" alt="">
+                    <div class="content">
+                        <h2>The Grill</h2>
+                        <div class="info">
+                            <div class="details">
+                                <div class="location">
+                                    <a href="">
+                                        <i class="fa-solid fa-location-dot" style="color: #000000;"></i>El
+                                        Tesseen Street City Centre, Fifth Settlement,
+                                        New Cairo, Cairo Egypt
+                                    </a>
+                                </div>
+                                <div class="stars">
+                                    <div class="star">
+                                        <i class="fa-solid fa-star" style="color: #080808;"></i>
+                                        <i class="fa-solid fa-star" style="color: #080808;"></i>
+                                        <i class="fa-solid fa-star" style="color: #080808;"></i>
+                                        <i class="fa-regular fa-star" style="color: #080808;"></i>
+                                        <i class="fa-regular fa-star" style="color: #080808;"></i>
+                                    </div>
+                                    <p>(234)</p>
+                                </div>
+                                <div class="more">
+                                    <a href="#">Show More</a>
+                                </div>
+                            </div>
+                            <div class="about">
+                                <p>
+                                    Cairo’s best fine dining experience, a romantic atmosphere for couples who are
+                                    looking to enjoy a delicious meal. The food is amazing and the service is
+                                    outstanding
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="favorite" href="#"><i class="fa-regular fa-heart" style="color: #fa0000;"></i></a>
+                </div>
+                <div class="card">
+                    <img src="~/img/restaurant_4.jpeg" alt="">
+                    <div class="content">
+                        <h2>Roy's Smokehouse</h2>
+                        <div class="info">
+                            <div class="details">
+                                <div class="location">
+                                    <a href="">
+                                        <i class="fa-solid fa-location-dot" style="color: #000000;"></i>Dr Abd Al
+                                        Aziz Al Shennawy St,
+                                        Cairo Egypt
+                                    </a>
+                                </div>
+                                <div class="stars">
+                                    <div class="star">
+                                        <i class="fa-solid fa-star" style="color: #080808;"></i>
+                                        <i class="fa-solid fa-star" style="color: #080808;"></i>
+                                        <i class="fa-solid fa-star" style="color: #080808;"></i>
+                                        <i class="fa-regular fa-star" style="color: #080808;"></i>
+                                        <i class="fa-regular fa-star" style="color: #080808;"></i>
+                                    </div>
+                                    <p>(234)</p>
+                                </div>
+                                <div class="more">
+                                    <a href="#">Show More</a>
+                                </div>
+                            </div>
+                            <div class="about">
+                                <p>
+                                    Roys hidden away on the ground floor of the Marriot and entered the space not
+                                    expecting the good the food! The food was so good oh my gosh. Nachos Brisket Burgers
+                                    Wings yummmmmmyyy and definitely a recommended. They've got this old school smoke
+                                    machine which bbqs the meat. If you looking for some BBQ go to Roy's.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="favorite" href="#"><i class="fa-regular fa-heart" style="color: #fa0000;"></i></a>
+                </div>
+                <div class="card">
+                    <img src="~/img/restaurant_5.jpeg" alt="">
+                    <div class="content">
+                        <h2>Osmanly Restaurant</h2>
+                        <div class="info">
+                            <div class="details">
+                                <div class="location">
+                                    <a href="">
+                                        <i class="fa-solid fa-location-dot" style="color: #000000;"></i>Cairo
+                                        International Airport Road El Horreya-Heliopolis,
+                                        Cairo Egypt
+                                    </a>
+                                </div>
+                                <div class="stars">
+                                    <div class="star">
+                                        <i class="fa-solid fa-star" style="color: #080808;"></i>
+                                        <i class="fa-solid fa-star" style="color: #080808;"></i>
+                                        <i class="fa-solid fa-star" style="color: #080808;"></i>
+                                        <i class="fa-regular fa-star" style="color: #080808;"></i>
+                                        <i class="fa-regular fa-star" style="color: #080808;"></i>
+                                    </div>
+                                    <p>(234)</p>
+                                </div>
+                                <div class="more">
+                                    <a href="#">Show More</a>
+                                </div>
+                            </div>
+                            <div class="about">
+                                <p>
+                                    Delicious food & perfect service in a beautiful location, absolutely worth a visit!We
+                                    do usually not eat in hotels as they often have an interchangeable menu, but Osmanly
+                                    really offers a great dining experience
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="favorite" href="#"><i class="fa-regular fa-heart" style="color: #fa0000;"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="subscribe">
+        <div class="container">
+            <div class="content">
+                <p>Subscribe to get all the news!</p>
+                <form action="#">
+                    <input type="email" name="email" placeholder="Enter your Email">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="infos">
+                <div class="info">
+                    <h2>About Nile Journey</h2>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                    <div class="links">
+                        <a href="#"><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>Cairo, Egypt</a>
+                        <a href="#"><i class="fa-solid fa-headset" style="color: #ffffff;"></i>+20012345678</a>
+                        <a href="#">
+                            <i class="fa-regular fa-envelope"
+                               style="color: #ffffff;"></i>info@nilejourney.com
+                        </a>
+                    </div>
+                </div>
+                <div class="info">
+                    <h2>Explore</h2>
+                    <div class="content">
+                        <ul class="left">
+                            <li><a href="#">About Egypt</a></li>
+                            <li><a href="#">Write a Review</a></li>
+                            <li><a href="#">Cairo</a></li>
+                            <li><a href="#">Alexandria</a></li>
+                            <li><a href="#">Aswan</a></li>
+                            <li><a href="#">Luxor</a></li>
+                        </ul>
+                        <ul class="right">
+                            <li><a href="#">Siwa</a></li>
+                            <li><a href="#">Sharm</a></li>
+                            <li><a href="#">Marsa Matrouh</a></li>
+                            <li><a href="#">Join</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Favorites</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="info">
+                    <h2>Follow Us</h2>
+                    <div class="socials">
+                        <a href=""><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        let nav = document.querySelector(".nav_container");
+
+
+        window.onscroll = function () { showOverlay() };
+
+        function showOverlay() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                nav.classList.add("active");
+            } else {
+                nav.classList.remove("active");
+            }
+        }
+
+        /////////////////////////////////////////////////////////
+
+        let itemClicker = document.querySelectorAll(".transportation .transport .cont > div"),
+            transportationContent = document.querySelectorAll(".transportation .transport .content > div");
+
+
+
+        itemClicker.forEach((item) => {
+            item.addEventListener("click", (e) => {
+                e.preventDefault();
+                for (let index = 0; index < itemClicker.length; index++) {
+                    const element = itemClicker[index];
+                    element.classList.remove("active");
+                }
+                for (let index = 0; index < transportationContent.length; index++) {
+                    const content = transportationContent[index];
+                    content.classList.remove("active");
+                    if (item.getAttribute("data-count") == 1) {
+                        transportationContent[0].classList.add("active");
+                    }
+                    else if (item.getAttribute("data-count") == 2) {
+                        transportationContent[1].classList.add("active");
+                    }
+                    if (item.getAttribute("data-count") == 3) {
+                        transportationContent[2].classList.add("active");
+                    }
+                }
+                item.classList.add("active");
+            })
+        })
+    </script>
+
+
+    <script src="js/cairo.js"></script>
+</body>
+

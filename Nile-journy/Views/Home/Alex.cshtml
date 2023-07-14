@@ -1,0 +1,454 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/all.min.css">
+    <link rel="stylesheet" href="~/css/home.css">
+    <link rel="stylesheet" href="~/css/cairo.css">
+    <link rel="stylesheet" href="~/css/alexandria.css">
+    <title>Nile Journey</title>
+</head>
+
+<body>
+
+    <div class="nav_container">
+        <nav>
+            <div class="logo">
+                <i class="fa-regular fa-compass" style="color: #ffffff;"></i>
+                <a class="logo_up" href="#">Nile Journey</a>
+                <ul class="navigation">
+                    <li><a href="~/Home/home">Home</a></li>
+                    <li><a href="~/Home/review">Review</a></li>
+                    <li><a href="~/Home/favorites">Favorite</a></li>
+                    <li><a href="~/Home/Alex">About Alex</a></li>
+                </ul>
+            </div>
+            <div class="profile">
+                <div class="search">
+                    <input type="text" name="search">
+                    <a class="magnyfing" href="#">
+                        <i class="fa-solid fa-magnifying-glass searching"
+                           style="color: #ffffff;"></i>
+                    </a>
+                </div>
+                <div class="links">
+                    <a href="profile.html"><i class="fa-solid fa-user" style="color: #ffffff;"></i></a>
+                    <a href="#" class="log_out">Log out</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="landing">
+        <div class="container">
+            <h1>Alexandria</h1>
+        </div>
+    </div>
+
+    <div class="categories">
+        <div class="container">
+            <div class="items">
+                <div class="item">
+                    <a href="~/Home/Alexhotels">Hotels<i class="fa-solid fa-bed" style="color: #ffffff;"></i></a>
+                </div>
+                <div class="item">
+                    <a href="~/Home/Alexrasturant">
+                        Resaurants<i class="fa-solid fa-utensils"
+                                     style="color: #ffffff;"></i>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="~/Home/AlexPlaces">
+                        Places to go<i class="fa-solid fa-building-flag"
+                                       style="color: #ffffff;"></i>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="~/Home/Alexthingsto">
+                        Things to do<i class="fa-solid fa-ticket"
+                                       style="color: #ffffff;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="information">
+                <h3>About Alexandria</h3>
+                <p>
+                    Alexandria is a city in northern Egypt that was founded by Alexander the Great in 331 BCE. It was a
+                    center of learning and commerce, and home to the famous Library of Alexandria. Today, it is a modern
+                    city with a rich cultural and historical heritage, including the impressive Bibliotheca Alexandrina.
+                    It also has beautiful beaches and a vibrant arts and music scene.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="visited">
+        <div class="heading">
+            <h2>Most Visited Places</h2>
+        </div>
+        <div class="pictures">
+            <div>
+                <div class="content">
+                    <h3>Bibliotheca Alexandrina</h3>
+                    <a href="#"><i class="fa-solid fa-angle-right" style="color: #000000;"></i></a>
+                </div>
+                <img src="~/img/alex_library.jpeg" alt="alex_library">
+            </div>
+            <div>
+                <div class="content">
+                    <h3>Citadel of Qaitbay</h3>
+                    <a href="#"><i class="fa-solid fa-angle-right" style="color: #000000;"></i></a>
+                </div>
+                <img src="~/img/alex_citadel.jpeg" alt="alex_citadel">
+            </div>
+            <div>
+                <div class="content">
+                    <h3>Montaza Palace</h3>
+                    <a href="#"><i class="fa-solid fa-angle-right" style="color: #000000;"></i></a>
+                </div>
+                <img src="~/img/almontaza.jpeg" alt="almontaza">
+            </div>
+            <a class="more" href="#"><i class="fa-solid fa-angle-right" style="color: #000000;"></i></a>
+        </div>
+    </div>
+
+    <div class="transportation">
+        <div class="container">
+            <div class="information">
+                <h3>Transportation</h3>
+                <p>
+                    If you're looking for a convenient and time-saving way to get around town, private cars offer an
+                    excellent solution. Whether you choose to hail a taxi or book a ride through popular ride-sharing
+                    services like Uber and Careem, you'll be able to quickly and easily reach your destination with just
+                    a few clicks.
+                    While Alexandria is a city that's ideally suited for walking, particularly in its central and
+                    downtown districts, there are times when longer journeys around the city are necessary. Fortunately,
+                    there are several easy and cost-effective transportation options available to visitors.
+                </p>
+                <p>
+
+                    Whether you're looking to explore the city's many attractions or simply need to get from point A to
+                    point B, private cars can provide a comfortable and reliable means of transportation. For longer
+                    journeys around the city, visitors have the following easy and cost effective options:
+                </p>
+            </div>
+            <div class="transport">
+                <div class="cont">
+                    <div class="metro active" data-count="1">
+                        <a href="">Tram<i class="fa-solid fa-train-tram" style="color: #000000;"></i></a>
+                    </div>
+                    <div class="river_bus" data-count="2">
+                        <a href="">Train<i class="fa-solid fa-train-subway" style="color: #000000;"></i></a>
+                    </div>
+                    <div class="carriage" data-count="3">
+                        <a href="">Taxi<i class="fa-solid fa-taxi" style="color: #000000;"></i></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="info active" data-count="1">
+                        <div class="items">
+                            <p>
+                                Alexandria's tram system provides service between downtown Alexandria and the eastern
+                                suburbs. The trams are an atmospheric way to travel through the city, passing by
+                                historical sights. However, the network is limited to certain parts of the city. Tram
+                                rides are very affordable.
+                            </p>
+                            <img src="~/img/alex_tram.jpeg" alt="alex_tram">
+                        </div>
+                    </div>
+                    <div class="info" data-count="2">
+                        <div class="items">
+                            <p>
+                                Alexandria is connected to other cities in Egypt by rail. There are two main stations:
+                                Sidi Gaber Station provides service to Cairo, while Misr Station connects Alexandria to
+                                cities in the Nile Delta region. The rail network is a convenient way to travel longer
+                                distances, though still basic.
+                            </p>
+                            <img src="~/img/alex_train.jpeg" alt="alex_train">
+                        </div>
+                    </div>
+                    <div class="info" data-count="3">
+                        <div class="items">
+                            <p>
+                                taxis are a popular way for both locals and tourists to get around Alexandria. You can
+                                hail taxis on the street or hire one from designated taxi stands throughout the city.
+                                Fares should be negotiated in advance. Taxis allow you to customize your trip but can be
+                                more expensive than buses or trams.
+                            </p>
+                            <img src="~/img/alex_taxi.jpeg" alt="alex_taxi">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="events">
+        <div class="container">
+            <div class="heading">
+                <h2>Upcoming Events</h2>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="image">
+                        <img src="~/img/alex_event_1.jpeg" alt="alex_event_1">
+                    </div>
+                    <div class="info">
+                        <h3>AOS 2023 event</h3>
+                        <div class="links">
+                            <p><i class="fa-solid fa-ticket" style="color: #000000;"></i>20-22 SEPTEMBER 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="~/img/alex_event_1.jpeg" alt="alex_event_1">
+                    </div>
+                    <div class="info">
+                        <h3>AOS 2023 event</h3>
+                        <div class="links">
+                            <p><i class="fa-solid fa-ticket" style="color: #000000;"></i>20-22 SEPTEMBER 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="~/img/alex_event_1.jpeg" alt="alex_event_1">
+                    </div>
+                    <div class="info">
+                        <h3>AOS 2023 event</h3>
+                        <div class="links">
+                            <p><i class="fa-solid fa-ticket" style="color: #000000;"></i>20-22 SEPTEMBER 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="more" href="#"><i class="fa-solid fa-angle-right" style="color: #000000;"></i></a>
+    </div>
+
+    <div class="reviews">
+        <div class="container">
+            <div class="heading">
+                <h2>Reviews</h2>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="header">
+                        <img src="~/img/user_review_1.png" alt="">
+                        <div class="info">
+                            <h4>Ahmed Mohamed</h4>
+                            <p><i class="fa-solid fa-pen" style="color: #000000;"></i>32</p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>kebdet el falah</h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-regular fa-star" style="color: #080808;"></i>
+                        </div>
+                        <p>
+                            Very good natural sea beach. Clean and peaceful. Very good for fun activities with children
+                            and family. Easily accessible from Resorts
+                            Message
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="header">
+                        <img src="~/img/user_review_7.png" alt="">
+                        <div class="info">
+                            <h4>Menna Mohamed</h4>
+                            <p><i class="fa-solid fa-pen" style="color: #000000;"></i>32</p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Golden Jewel Beach</h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-regular fa-star" style="color: #080808;"></i>
+                        </div>
+                        <p>
+                            Very good natural sea beach. Clean and peaceful. Very good for fun activities with children
+                            and family. Easily accessible from Resorts
+                            Message
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="header">
+                        <img src="~/img/user_review_4.png" alt="">
+                        <div class="info">
+                            <h4>Lamia Saad</h4>
+                            <p><i class="fa-solid fa-pen" style="color: #000000;"></i>32</p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>kebdet el falah</h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-regular fa-star" style="color: #080808;"></i>
+                        </div>
+                        <p>
+                            Very good natural sea beach. Clean and peaceful. Very good for fun activities with children
+                            and family. Easily accessible from Resorts
+                            Message
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="header">
+                        <img src="~/img/user_review_8.png" alt="">
+                        <div class="info">
+                            <h4>Mina Boles</h4>
+                            <p><i class="fa-solid fa-pen" style="color: #000000;"></i>32</p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>kebdet el falah</h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-regular fa-star" style="color: #080808;"></i>
+                        </div>
+                        <p>
+                            Very good natural sea beach. Clean and peaceful. Very good for fun activities with children
+                            and family. Easily accessible from Resorts
+                            Message
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="subscribe">
+        <div class="container">
+            <div class="content">
+                <p>Subscribe to get all the news!</p>
+                <form action="#">
+                    <input type="email" name="email" placeholder="Enter your Email">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="infos">
+                <div class="info">
+                    <h2>About Nile Journey</h2>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                    <div class="links">
+                        <a href="#"><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>Cairo, Egypt</a>
+                        <a href="#"><i class="fa-solid fa-headset" style="color: #ffffff;"></i>+20012345678</a>
+                        <a href="#">
+                            <i class="fa-regular fa-envelope"
+                               style="color: #ffffff;"></i>info@nilejourney.com
+                        </a>
+                    </div>
+                </div>
+                <div class="info">
+                    <h2>Explore</h2>
+                    <div class="content">
+                        <ul class="left">
+                            <li><a href="#">About Egypt</a></li>
+                            <li><a href="#">Write a Review</a></li>
+                            <li><a href="#">Cairo</a></li>
+                            <li><a href="#">Alexandria</a></li>
+                            <li><a href="#">Aswan</a></li>
+                            <li><a href="#">Luxor</a></li>
+                        </ul>
+                        <ul class="right">
+                            <li><a href="#">Siwa</a></li>
+                            <li><a href="#">Sharm</a></li>
+                            <li><a href="#">Marsa Matrouh</a></li>
+                            <li><a href="#">Join</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Favorites</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="info">
+                    <h2>Follow Us</h2>
+                    <div class="socials">
+                        <a href=""><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        let nav = document.querySelector(".nav_container");
+
+
+        window.onscroll = function () { showOverlay() };
+
+        function showOverlay() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                nav.classList.add("active");
+            } else {
+                nav.classList.remove("active");
+            }
+        }
+
+        /////////////////////////////////////////////////////////
+
+        let itemClicker = document.querySelectorAll(".transportation .transport .cont > div"),
+            transportationContent = document.querySelectorAll(".transportation .transport .content > div");
+
+
+
+        itemClicker.forEach((item) => {
+            item.addEventListener("click", (e) => {
+                e.preventDefault();
+                for (let index = 0; index < itemClicker.length; index++) {
+                    const element = itemClicker[index];
+                    element.classList.remove("active");
+                }
+                for (let index = 0; index < transportationContent.length; index++) {
+                    const content = transportationContent[index];
+                    content.classList.remove("active");
+                    if (item.getAttribute("data-count") == 1) {
+                        transportationContent[0].classList.add("active");
+                    }
+                    else if (item.getAttribute("data-count") == 2) {
+                        transportationContent[1].classList.add("active");
+                    }
+                    if (item.getAttribute("data-count") == 3) {
+                        transportationContent[2].classList.add("active");
+                    }
+                }
+                item.classList.add("active");
+            })
+        })
+    </script>
+
+    <script src="js/cairo.js"></script>
+</body>
+

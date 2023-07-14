@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+/******************************** Global **********************************/
+
+:root {
+    --bg-color: #DFC5A3;
+    --secondary-color1: #050101;
+    --secondary-color2: #2e1a0e;
+    --kaushan-font: 'Kaushan Script', cursive;
+    --lobster-font: 'Lobster', cursive;
+    --gruppo-font: 'Gruppo', cursive;
+    --cardo-font: 'Cardo', serif;
+    --avro-font: 'Arvo', serif;
+    --roboto-font: 'Roboto Slab', serif;
+    --alfa-slap-font: 'Alfa Slab One', cursive;
+    --small-card-color: #958068;
+    --special-card-color: #634137;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+
+.profile {
+    background-image: url("../img/profile_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-bottom: 140px;
+}
+
+.profile::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: .3;
+}
+
+.profile .greeting {
+    color: white;
+    font-size: 3rem;
+    margin-left: 70px;
+    font-family: var(--alfa-slap-font);
+}
+
+.profile .content {
+    position: relative;
+    padding: 20px 0;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.profile .content .nav_container {
+    height: 80px;
+    margin-top: -20px;
+    padding-top: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.profile .content .nav_container.active {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.profile .content .nav_container nav {
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile .containing {
+    margin-top: 60px;
+}
+
+.profile nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+.profile nav .logo .logo_up {
+    color: white;
+    font-size: 30px;
+    font-family: var(--lobster-font);
+    margin-left: 10px;
+}
+
+.profile nav .logo .navigation {
+    display: flex;
+    margin-left: 50px;
+}
+
+.profile nav .logo .navigation li {
+    margin-right: 50px;
+}
+
+.profile nav .logo .navigation li a {
+    color: white;
+    font-family: var(--cardo-font);
+    font-size: 18px;
+}
+
+.profile .container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile .container .profile_card {
+    background-color: rgba(0, 0, 0, .83);
+    width: 29%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-family: var(--avro-font);
+}
+
+.profile .container .profile_card .header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.63);
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+
+.profile .container .profile_card .header i {
+    font-size: 6rem;
+    margin-bottom: 10px;
+}
+
+.profile .container .profile_card .header h2 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+}
+
+.profile .container .profile_card .content {
+    text-align: left;
+    margin-bottom: 160px;
+}
+
+.profile .container .profile_card ul li {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
+.profile .container .profile_card ul li i {
+    margin-right: 30px;
+}
+
+.profile .container .profile_card ul li a {
+    color: white;
+}
+
+.profile .container .profile_card .log_out {
+    background-color: transparent;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.profile .container .info_card {
+    background-color: rgba(0, 0, 0, .69);
+    width: 68%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 50px 20px;
+}
+
+.profile .container .info_card .heading {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.63);
+}
+
+
+.profile .container .info_card h2 {
+    color: white;
+    font-size: 2rem;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    font-family: var(--roboto-font);
+}
+
+.profile .container .info_card form .user_info {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.63);
+}
+
+.profile .container .info_card form .user_info h3 {
+    color: rgba(255, 255, 255, 0.56);
+    font-size: .9rem;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.profile .container .info_card form .user_info .content {
+    
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.profile .container .info_card form .user_info .content > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile .container .info_card form .contact_info {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.63);
+    margin-bottom: 30px;
+}
+
+.profile .container .info_card form .contact_info h3 {
+    color: rgba(255, 255, 255, 0.56);
+    font-size: .9rem;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.profile .container .info_card form .contact_info .content {
+    display: grid;
+    grid-template-columns: 60%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.profile .container .info_card form .contact_info .content > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile .container .info_card form .personal_info h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.profile .container .info_card form .personal_info .genders {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.profile .container .info_card form > div label {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.profile .container .info_card form > div input:not(input[type="submit"]) {
+    padding: 10px 20px;
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.38);
+    border-radius: 17px;
+    color: white;
+    outline: none;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+}
+
+.profile .container .info_card form .submit{
+    display: flex;
+}
+
+.profile .container .info_card form > div input[type="submit"] {
+    width: fit-content;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 30px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.log_out_screen {
+    background-color: white;
+    padding: 20px;
+    width: fit-content;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    text-align: center;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.log_out_screen h2 {
+    font-size: 2rem;
+    font-family: var(--kaushan-font);
+}
+
+.log_out_screen p {
+    font-family: var(--avro-font);
+}
+
+.log_out_screen .buttons button {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.log_out_screen .buttons .cancel {
+    background-color: transparent;
+}
+
+.log_out_screen .buttons .logout {
+    background-color: black;
+    color: white;
+    border: none;
+}

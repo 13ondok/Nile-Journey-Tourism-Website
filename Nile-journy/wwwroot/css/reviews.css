@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/******************************** Global **********************************/
+
+:root {
+    --bg-color: #EDCDBB;
+    --secondary-bgColor: #BA927A;
+    --secondary-color1: #050101;
+    --secondary-color2: #2e1a0e;
+    --kaushan-font: 'Kaushan Script', cursive;
+    --lobster-font: 'Lobster', cursive;
+    --gruppo-font: 'Gruppo', cursive;
+    --cardo-font: 'Cardo', serif;
+    --avro-font: 'Arvo', serif;
+    --kodchasan: 'Kodchasan', sans-serif;
+    --abhaya-font: 'Abhaya Libre', serif;
+    --philosopher-font: 'Philosopher', sans-serif;
+    --small-card-color: #E3B7A0;
+    --special-card-color: #634137;
+    scroll-behavior: smooth;
+}
+
+.modal {
+    max-width: 70%;
+    padding-top: 60px;
+    border: none;
+}
+
+.modal .esc {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 30px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.modal .esc:hover {
+    background-color: red;
+}
+
+.modal .content {
+    display: flex;
+}
+
+.modal .content .tell_us {
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+
+.modal .content .tell_us img {
+    width: 200px;
+}
+
+.modal .content .tell_us h2 {
+    margin-bottom: 20px;
+    font-family: var(--abhaya-font);
+}
+
+.modal .content .tell_us .card {
+    background-color: #EFECEC;
+    width: fit-content;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.modal .content .tell_us .card p {
+    font-size: 1.2rem;
+    font-family: var(--abhaya-font);
+    margin-bottom: 0;
+}
+
+.modal .content .tell_us .card a {
+    color: black;
+    font-size: .8rem;
+}
+
+.modal .content .tell_us .card a i {
+    margin-right: 10px;
+}
+
+.modal .content .rating {
+    margin-left: 20px;
+}
+
+.modal .content .rating h4 {
+    font-family: var(--philosopher-font);
+    margin-bottom: 10px;
+}
+
+.modal .content .rating .stars {
+    margin-bottom: 20px;
+}
+
+.modal .content .rating .categories {
+    margin-bottom: 20px;
+}
+
+.modal .content .rating .categories ul {
+    display: flex;
+}
+
+.modal .content .rating .categories ul li {
+    margin-right: 5px;
+}
+
+.modal .content .rating .categories ul li a {
+    color: black;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid black;
+}
+
+.modal .content .rating .categories ul li a.active {
+    background-color: var(--secondary-bgColor);
+    color: white;
+}
+
+.modal .content .rating textarea,
+.modal .content .rating input[type="text"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.modal .buttons {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.modal .buttons>button {
+    background-color: transparent;
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.modal .buttons .close {
+    margin-right: 20px;
+}
+
+
+/*****************************************************************/
+
+.landing_page .content .container {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.landing_page .content .container h1 {
+    font-size: 3.5rem;
+}
+
+.landing_page .content .container p {
+    font-family: var(--abhaya-font);
+}
+
+.landing_page .content .container form {
+    position: relative;
+}
+
+.landing_page .content .container form input {
+    width: 50%;
+    background-color: rgba(0, 0, 0, .41);
+    padding: 10px 20px 10px 40px;
+    border: 2px solid white;
+    border-radius: 34px;
+    -webkit-border-radius: 34px;
+    -moz-border-radius: 34px;
+    -ms-border-radius: 34px;
+    -o-border-radius: 34px;
+    color: white;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.landing_page .content .container form input::placeholder {
+    font-family: var(--abhaya-font);
+    color: rgba(#fff, #fff, #fff, .45);
+    font-size: 1.2rem;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.landing_page .content .container form input:focus::placeholder {
+    opacity: 0;
+}
+
+.landing_page .content .container form button {
+    font-size: 1.3rem;
+    position: absolute;
+    left: 25.5%;
+    top: 8px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+/******************************* Places *************************************/
+
+.places {
+    padding: 50px 0;
+    background-color: var(--bg-color);
+    position: relative;
+}
+
+.places::before {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, .41);
+    bottom: -10px;
+    left: 5%;
+}
+
+.places .container {
+    max-width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.places .container>h2 {
+    margin-bottom: 20px;
+    font-family: var(--abhaya-font);
+}
+
+.places .monuments {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+    gap: 50px;
+}
+
+.places .monuments .monument .image img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.places .monuments .monument {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.places .monuments .monument .content h3 {
+    font-family: var(--abhaya-font);
+}
+
+.places .monuments .monument .content p {
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: var(--philosopher-font);
+}
+
+.places .monuments .monument .content span {
+    font-family: var(--philosopher-font);
+}
+
+.places .monuments .monument .content .stars {
+    margin-top: 5px;
+}
+
+/************************ Your Reviews **********************************/
+
+.your_reviews {
+    padding: 50px 0;
+    background-color: var(--bg-color);
+}
+
+.your_reviews .container {
+    max-width: 50%;
+    margin: auto;
+}
+
+.your_reviews .heading {
+    border-bottom: 2px solid black;
+    margin-bottom: 40px;
+}
+
+.your_reviews .heading h2 {
+    font-family: var(--abhaya-font);
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.your_reviews .content p {
+    font-family: var(--abhaya-font);
+    font-size: 1.5rem;
+}
+
+.your_reviews .content .card {
+    display: flex;
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid black;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    background-color: var(--small-card-color);
+}
+
+.your_reviews .content .card:hover {
+    transform: scale(.9);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+    box-shadow: 0px 14px 28px 9px rgba(0, 0, 0, 0.25);
+}
+
+.your_reviews .content .card .image {
+    margin-right: 30px;
+}
+
+.your_reviews .content .card img {
+    width: 150px;
+    height: 225px;
+}
+
+.your_reviews .content .card .info h3 {
+    font-size: 2rem;
+    font-family: var(--abhaya-font);
+}
+
+.your_reviews .content .card .info p {
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: var(--philosopher-font);
+}
+
+.your_reviews .content .card .info p i {
+    font-size: .9rem;
+    margin-right: 10px;
+}
+
+.your_reviews .content .card .info span {
+    font-family: var(--philosopher-font);
+}
+
+.your_reviews .content .card .info .stars {
+    margin: 5px 0;
+}
+
+.your_reviews .content .card .info .desc {
+    font-size: 1rem;
+    font-family: var(--philosopher-font);
+    margin-top: 20px;
+}
+
+/******************************** Footer ****************************/
+
+footer {
+    background-color: var(--bg-color);
+    color: black;
+}
+
+footer .infos .info ul li a {
+    color: black;
+}
+
+footer .infos .info .links a {
+    color: black;
+}

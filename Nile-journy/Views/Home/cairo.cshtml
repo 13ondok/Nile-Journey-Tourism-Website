@@ -1,0 +1,492 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/all.min.css">
+    <link rel="stylesheet" href="~/css/home.css">
+    <link rel="stylesheet" href="~/css/cairo.css">
+    <title>Nile Journey</title>
+</head>
+
+<body>
+
+    <div class="nav_container">
+        <nav>
+            <div class="logo">
+                <i class="fa-regular fa-compass" style="color: #ffffff;"></i>
+                <a class="logo_up" href="#">Nile Journey</a>
+                <ul class="navigation">
+                    <li><a href="~/Home/home_success">Home</a></li>
+                    <li><a href="~/Home/review">Review</a></li>
+                    <li><a href="~/Home/favorites">Favorite</a></li>
+                    <li><a href="~/Home/cairo">About Cairo</a></li>
+                </ul>
+            </div>
+            <div class="profile">
+                <div class="search">
+                    <input type="text" name="search">
+                    <a class="magnyfing" href="#">
+                        <i class="fa-solid fa-magnifying-glass searching"
+                           style="color: #ffffff;"></i>
+                    </a>
+                </div>
+                <div class="links">
+                    <a href="profile.html"><i class="fa-solid fa-user" style="color: #ffffff;"></i></a>
+                    <a href="#" class="log_out">Log out</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="landing">
+        <div class="container">
+            <h1>Cairo</h1>
+        </div>
+    </div>
+
+    <div class="categories">
+        <div class="container">
+            <div class="items">
+                <div class="item">
+                    <a href="~/Home/cairohotels">Hotels<i class="fa-solid fa-bed" style="color: #ffffff;"></i></a>
+                </div>
+                <div class="item">
+                    <a href="~/Home/cairorestaurants">
+                        Resaurants<i class="fa-solid fa-utensils"
+                                     style="color: #ffffff;"></i>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="~/Home/cairoplaces">
+                        Places to go<i class="fa-solid fa-building-flag"
+                                       style="color: #ffffff;"></i>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="~/Home/cairothingsto">
+                        Things to do<i class="fa-solid fa-ticket"
+                                       style="color: #ffffff;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="information">
+                <h3>About Cairo</h3>
+                <p>
+                    Cairo is the capital city of Egypt and the largest city in the Arab world. It is located on the banks
+                    of the Nile River in northern Egypt and has a population of over 10 million people.
+                    Cairo is a major cultural, political, and economic center in the region. It has a rich history that
+                    spans thousands of years and is home to many important sites and landmarks, including the Pyramids
+                    of Giza, the Sphinx, the Egyptian Museum, and the Citadel of Cairo.
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="visited">
+        <div class="heading">
+            <h2>Most Visited Places</h2>
+        </div>
+        <div class="pictures">
+            <div>
+                <div class="content">
+                    <h3>The Egyptian Museum</h3>
+                    <a href="#"><i class="fa-solid fa-angle-right" style="color: #000000;"></i></a>
+                </div>
+                <img src="~/img/egyption musuem.jpg" alt="egyption musuem">
+            </div>
+            <div>
+                <div class="content">
+                    <h3>Alazhar Mosque</h3>
+                    <a href="#"><i class="fa-solid fa-angle-right" style="color: #000000;"></i></a>
+                </div>
+                <img src="~/img/azhar2.jpg" alt="azhar2">
+            </div>
+            <div>
+                <div class="content">
+                    <h3>Khan Elkhalili</h3>
+                    <a href="#"><i class="fa-solid fa-angle-right" style="color: #000000;"></i></a>
+                </div>
+                <img src="~/img/khan el khalili1.jpg" alt="khan el khalili1">
+            </div>
+            <a class="more" href="#"><i class="fa-solid fa-angle-right" style="color: #000000;"></i></a>
+        </div>
+    </div>
+
+    <div class="transportation">
+        <div class="container">
+            <div class="information">
+                <h3>Transportation</h3>
+                <p>
+                    Cairo has a big network of public transportation with a number of buses, micro-buses and a large
+                    network of roads in addition to the ring road which encircles the important parts of Cairo. One of
+                    the best places to find transport to almost any place in the city, are Ramsis Square and Abd El
+                    Moneim Riyad Square. Just get there, ask for your destination and as people are very friendly,
+                    they'll help you.
+                </p>
+                <p>
+                    If you're looking for an easy way to reach your destination and save time, then private cars are the
+                    right thing for you. You have the option of taking a taxi or other private means such as Uber and
+                    Careem that help you book a car with few clicks. For a comfy and safe ride from or to the airport
+                    London Cab is a great choice too.
+                </p>
+            </div>
+            <div class="transport">
+                <div class="cont">
+                    <div class="metro active" data-count="1">
+                        <a href="">Metro<i class="fa-solid fa-train-subway" style="color: #000000;"></i></a>
+                    </div>
+                    <div class="river_bus" data-count="2">
+                        <a href="">River Bus<i class="fa-solid fa-ship" style="color: #000000;"></i></a>
+                    </div>
+                    <div class="carriage" data-count="3">
+                        <a href="">Carriage<i class="fa-solid fa-horse" style="color: #000000;"></i></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="info active" data-count="1">
+                        <h2>Metro is the fastest way of getting around</h2>
+                        <div class="items">
+                            <p>
+                                Plans had been made to build a metro network in Egypt since the 1930’s, but construction
+                                only started in the 1980’s. The first line constructed was from Helwan south of Cairo to
+                                El Marg north of the city. Metro lines are still expanding in order to make it easier
+                                for citizens to move around the city, which is especially important as the streets of
+                                Cairo are so crowded. If you’re looking for a fast and an affordable way to reach your
+                                destination, then the metro is a good choice as you’ll save yourself from the hassle of
+                                the terrible traffic. But do be aware that sometimes the metro also gets very crowded,
+                                especially at peak time, so if you’re not willing to deal with the crowds then you
+                                should use another way of getting around.
+                            </p>
+                            <img src="~/img/metro_stations2.png" alt="metro_stations2">
+                        </div>
+                        <p>You Can get all the details from the official site</p>
+                        <a href="#">http://www.cairo.gov.eg/en/Interactive_Services/Transportation/Pages/metro.aspx</a>
+                    </div>
+                    <div class="info" data-count="2">
+                        <h2>Metro is the fastest way of getting around</h2>
+                        <div class="items">
+                            <p>
+                                That’s a bus in the Nile! Although these Nile buses don’t move as fast as you may want
+                                them to, it’s still so much better than the traffic jam. So if your destination is along
+                                the riverside, you can simply ask if the bus goes there. Another perfect thing about the
+                                Nile bus is that it can transport you to the historical Coptic area in Old Cairo. Just
+                                ask at the river stop which bus is going to Misr Al-Qadima (Old Cairo).
+                            </p>
+                            <img src="~/img/felucca.jpg" alt="felluca">
+                        </div>
+                    </div>
+                    <div class="info" data-count="3">
+                        <h2>Metro is the fastest way of getting around</h2>
+                        <div class="items">
+                            <p>
+                                The "hantoor" is a type of horse-drawn carriage that was traditionally used as a means
+                                of transportation in Egypt, particularly in Cairo. It was a popular mode of
+                                transportation in the late 19th and early 20th centuries, and could be seen on the
+                                streets of Cairo until the mid-20th century.
+                                The hantoor carriage is characterized by its two-wheeled design, which is supported by
+                                two long wooden poles on either side of the horse. The carriage itself is typically made
+                                of wood and features a roof to protect passengers from the sun and rain. The hantoor was
+                                often used for short trips within the city, and could carry up to two passengers.
+                                Today, the hantoor is no longer widely used as a means of transportation in Egypt, but
+                                it is still considered a cultural and historical icon of the country's past. Some
+                                hantoor carriages can still be found in Cairo, particularly in tourist areas where they
+                                are used for sightseeing and leisurely rides.
+                                <br>
+
+                                Carriages can be found in Downtown, Zamalek, Giza and mainly along Nile Corniche. And
+                                although they’re mainly used now for sightseeing now, they are still popular among
+                                Egyptians
+                                and tourists, especially during holidays and for special occasions.
+                            </p>
+                            <img src="~/img/hantour.jpg" alt="hantor">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="events">
+        <div class="container">
+            <div class="heading">
+                <h2>Upcoming Events</h2>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="image">
+                        <img src="~/img/omarkhairat.jpg" alt="omarkhairat">
+                    </div>
+                    <div class="info">
+                        <h3>Omar Khairat Event</h3>
+                        <p>3-5-2023</p>
+                        <div class="links">
+                            <a href="#">
+                                <i class="fa-solid fa-location-dot" style="color: #000000;"></i>Cairo Opera
+                                House
+                            </a>
+                            <p><i class="fa-solid fa-ticket" style="color: #000000;"></i>250 LE</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="~/img/omarkhairat.jpg" alt="omarkhairat">
+                    </div>
+                    <div class="info">
+                        <h3>Jade’s Karaoke Night</h3>
+                        <p>28-5-2023</p>
+                        <div class="links">
+                            <a href="#"><i class="fa-solid fa-location-dot" style="color: #000000;"></i>cairo, Karaoke Night,</a>
+                            <p><i class="fa-solid fa-ticket" style="color: #000000;"></i>180 LE</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="~/img/omarkhairat.jpg" alt="omarkhairat">
+                    </div>
+                    <div class="info">
+                        <h3>Egypt Meditation Retreat</h3>
+                        <p>30-5-2023</p>
+                        <div class="links">
+                            <a href="#"><i class="fa-solid fa-location-dot" style="color: #000000;"></i>Giza</a>
+                            <p><i class="fa-solid fa-ticket" style="color: #000000;"></i>80 LE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="more" href="#"><i class="fa-solid fa-angle-right" style="color: #000000;"></i></a>
+    </div>
+
+    <!-- <div class="video">
+        <video muted loop autoplay>
+            <source src="video/cairo_video.mp4">
+        </video>
+    </div> -->
+
+    <div class="reviews">
+        <div class="container">
+            <div class="heading">
+                <h2>Reviews</h2>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="header">
+                        <img src="~/img/user_review_1.png" alt="">
+                        <div class="info">
+                            <h4>Ahmed Saad</h4>
+                            <p><i class="fa-solid fa-pen" style="color: #000000;"></i>32</p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Sizzler</h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-regular fa-star" style="color: #080808;"></i>
+                            <i class="fa-regular fa-star" style="color: #080808;"></i>
+                        </div>
+                        <p>
+                            Very good natural sea beach. Clean and peaceful. Very good for fun activities with children
+                            and family. Easily accessible from Resorts
+                            Message
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="header">
+                        <img src="~/img/user_review_2.png" alt="">
+                        <div class="info">
+                            <h4>Rana Samy</h4>
+                            <p><i class="fa-solid fa-pen" style="color: #000000;"></i>10</p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Kempiniski Hotel</h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                        </div>
+                        <p>
+                            Hotel is very well located if you want a place near the airport and outside the busy streets
+                            of Cairo, it has good facilities and restaurants and a wonderful spa
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="header">
+                        <img src="~/img/user_review_4.png" alt="">
+                        <div class="info">
+                            <h4>Sara Khaled</h4>
+                            <p><i class="fa-solid fa-pen" style="color: #000000;"></i>16</p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Roy's Smokehouse</h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-regular fa-star" style="color: #080808;"></i>
+                            <i class="fa-regular fa-star" style="color: #080808;"></i>
+                            <i class="fa-regular fa-star" style="color: #080808;"></i>
+                            <i class="fa-regular fa-star" style="color: #080808;"></i>
+                        </div>
+                        <p>
+                            We decided on Roy's based on the reviews. We wanted fine dining for our last night on Cairo.
+                            The staff was great and friendly.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="header">
+                        <img src="~/img/user_review_3.png" alt="">
+                        <div class="info">
+                            <h4>Kareem Ahmed</h4>
+                            <p><i class="fa-solid fa-pen" style="color: #000000;"></i>32</p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Khan el-Khalili</h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-solid fa-star" style="color: #080808;"></i>
+                            <i class="fa-regular fa-star" style="color: #080808;"></i>
+                        </div>
+                        <p>
+                            A medieval style local market, vibrant and active. As I visited during the festival season of
+                            Ramadan, that too in the evening.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="subscribe">
+        <div class="container">
+            <div class="content">
+                <p>Subscribe to get all the news!</p>
+                <form action="#">
+                    <input type="email" name="email" placeholder="Enter your Email">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="infos">
+                <div class="info">
+                    <h2>About Nile Journey</h2>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                    <div class="links">
+                        <a href="#"><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>Cairo, Egypt</a>
+                        <a href="#"><i class="fa-solid fa-headset" style="color: #ffffff;"></i>+20012345678</a>
+                        <a href="#">
+                            <i class="fa-regular fa-envelope"
+                               style="color: #ffffff;"></i>info@nilejourney.com
+                        </a>
+                    </div>
+                </div>
+                <div class="info">
+                    <h2>Explore</h2>
+                    <div class="content">
+                        <ul class="left">
+                            <li><a href="#">About Egypt</a></li>
+                            <li><a href="#">Write a Review</a></li>
+                            <li><a href="#">Cairo</a></li>
+                            <li><a href="#">Alexandria</a></li>
+                            <li><a href="#">Aswan</a></li>
+                            <li><a href="#">Luxor</a></li>
+                        </ul>
+                        <ul class="right">
+                            <li><a href="#">Siwa</a></li>
+                            <li><a href="#">Sharm</a></li>
+                            <li><a href="#">Marsa Matrouh</a></li>
+                            <li><a href="#">Join</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Favorites</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="info">
+                    <h2>Follow Us</h2>
+                    <div class="socials">
+                        <a href=""><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        let nav = document.querySelector(".nav_container");
+
+
+        window.onscroll = function () { showOverlay() };
+
+        function showOverlay() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                nav.classList.add("active");
+            } else {
+                nav.classList.remove("active");
+            }
+        }
+
+        /////////////////////////////////////////////////////////
+
+        let itemClicker = document.querySelectorAll(".transportation .transport .cont > div"),
+            transportationContent = document.querySelectorAll(".transportation .transport .content > div");
+
+
+
+        itemClicker.forEach((item) => {
+            item.addEventListener("click", (e) => {
+                e.preventDefault();
+                for (let index = 0; index < itemClicker.length; index++) {
+                    const element = itemClicker[index];
+                    element.classList.remove("active");
+                }
+                for (let index = 0; index < transportationContent.length; index++) {
+                    const content = transportationContent[index];
+                    content.classList.remove("active");
+                    if (item.getAttribute("data-count") == 1) {
+                        transportationContent[0].classList.add("active");
+                    }
+                    else if (item.getAttribute("data-count") == 2) {
+                        transportationContent[1].classList.add("active");
+                    }
+                    if (item.getAttribute("data-count") == 3) {
+                        transportationContent[2].classList.add("active");
+                    }
+                }
+                item.classList.add("active");
+            })
+        })
+    </script>
+
+
+    <script src="js/cairo.js"></script>
+</body>
+

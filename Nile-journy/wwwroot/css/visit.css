@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/******************************** Global **********************************/
+
+:root {
+    --bg-color: #DFC5A3;
+    --secondary-color1: #050101;
+    --secondary-color2: #2e1a0e;
+    --kaushan-font: 'Kaushan Script', cursive;
+    --lobster-font: 'Lobster', cursive;
+    --gruppo-font: 'Gruppo', cursive;
+    --cardo-font: 'Cardo', serif;
+    --avro-font: 'Arvo', serif;
+    --roboto-font: 'Roboto Slab', serif;
+    --small-card-color: #958068;
+    --special-card-color: #634137;
+    scroll-behavior: smooth;
+}
+
+
+.profile .filter {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.63);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.profile .info_card::-webkit-scrollbar {
+    width: 10px;
+}
+
+.profile .info_card::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.profile .info_card::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.profile .filter ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.profile .filter ul::after {
+    content: "";
+    position: absolute;
+    right: 50px;
+    top: 0;
+    width: 1px;
+    height: 110%;
+    background-color: white;
+}
+
+.profile .filter ul li a {
+    color: white;
+    font-size: 1.3rem;
+    font-family: var(--roboto-font);
+}
+
+.profile .filter button {
+    background: rgba(0, 0, 0, 0.21);
+    border: 4px solid rgba(255, 255, 255, 0.44);
+    border-radius: 19px;
+    color: white;
+    padding: 5px 25px;
+    font-size: 1.2rem;
+    font-family: var(--roboto-font);
+    position: relative;
+    cursor: pointer;
+}
+
+.profile .filter button::after {
+    content: "";
+    position: absolute;
+    right: -25px;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background-color: white;
+}
+
+.profile .filter .right_click {
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.profile .filter .right_click i {
+    font-size: 1.5rem;
+}
+
+.profile .info_card {
+    padding: 20px !important;
+    height: 800px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.profile .visits .card {
+    background-color: rgba(0, 0, 0, 0.94);
+    width: 90%;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 17px;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.profile .visits .card:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: -20px;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.63);
+}
+
+.profile .visits .card .content {
+    display: flex;
+    gap: 20px;
+}
+
+.profile .visits .card .content .picture img {
+    width: 254px;
+    height: 160px;
+}
+
+.profile .visits .card .content .info {
+    color: white;
+    font-family: var(--roboto-font);
+}
+
+.profile .visits .card .content .info ul {
+    display: flex;
+    margin-top: 40px;
+}
+
+.profile .visits .card .content .info ul li {
+    margin-left: 15px;
+}
+
+.profile .visits .card .content .fa-caret-right {
+    font-size: 1.5rem;
+    position: absolute;
+    cursor: pointer;
+    bottom: 10px;
+    right: 10px;
+}

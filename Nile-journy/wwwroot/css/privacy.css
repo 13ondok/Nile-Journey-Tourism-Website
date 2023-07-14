@@ -1,0 +1,93 @@
+.profile .reviews {
+    margin-top: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.63);
+}
+
+.profile .reviews p {
+    color: rgba(255, 255, 255, 0.56);
+}
+
+.profile .reviews .toggler {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+}
+
+.profile .reviews .toggler h3 {
+    color: white;
+}
+
+.profile .reviews .toggler .toggles i {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.profile .reviews .toggler .toggles i.off {
+    display: none;
+}
+
+.profile .change_pass h3 {
+    color: rgba(255, 255, 255, 0.56);
+}
+
+.profile .change_pass .content form > div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.profile .change_pass .content form > div input {
+    width: 60%;
+}
+
+.profile .change_pass .content form .submitting input[type="submit"] {
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    background-color: transparent;
+    padding: 5px 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.profile .change_pass .content form .new_pass {
+    position: relative;
+}
+
+.profile .change_pass .content form .new_pass i {
+    position: absolute;
+    right: 42%;
+    top: 56%;
+    cursor: pointer;
+}
+
+.profile .change_pass .content form .new_pass i.open {
+    display: none;
+}
+
+.profile .change_pass .content form .conf_pass {
+    position: relative;
+}
+
+.profile .change_pass .content form .conf_pass i {
+    position: absolute;
+    right: 42%;
+    top: 56%;
+    cursor: pointer;
+}
+
+.profile .change_pass .content form .conf_pass i.open {
+    display: none;
+}

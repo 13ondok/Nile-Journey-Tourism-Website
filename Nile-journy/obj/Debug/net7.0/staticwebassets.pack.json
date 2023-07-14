@@ -1,0 +1,877 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\css\\about.css",
+      "PackagePath": "staticwebassets\\css\\about.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\css\\alexandria.css",
+      "PackagePath": "staticwebassets\\css\\alexandria.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\css\\alexandria_places.css",
+      "PackagePath": "staticwebassets\\css\\alexandria_places.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\css\\alexandria_restaurant.css",
+      "PackagePath": "staticwebassets\\css\\alexandria_restaurant.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\css\\alexandria_thingstodo.css",
+      "PackagePath": "staticwebassets\\css\\alexandria_thingstodo.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\css\\cairo.css",
+      "PackagePath": "staticwebassets\\css\\cairo.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\css\\cairo_hotel_1.css",
+      "PackagePath": "staticwebassets\\css\\cairo_hotel_1.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\css\\cairo_hotels.css",
+      "PackagePath": "staticwebassets\\css\\cairo_hotels.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\css\\cairo_places.css",
+      "PackagePath": "staticwebassets\\css\\cairo_places.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\css\\cairo_restaurants.css",
+      "PackagePath": "staticwebassets\\css\\cairo_restaurants.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\css\\cairo_thingstodo.css",
+      "PackagePath": "staticwebassets\\css\\cairo_thingstodo.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\css\\favourite.css",
+      "PackagePath": "staticwebassets\\css\\favourite.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\css\\normalize.min.css",
+      "PackagePath": "staticwebassets\\css\\normalize.min.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\css\\privacy.css",
+      "PackagePath": "staticwebassets\\css\\privacy.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\css\\profile.css",
+      "PackagePath": "staticwebassets\\css\\profile.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\css\\reviews.css",
+      "PackagePath": "staticwebassets\\css\\reviews.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\css\\sign_up.css",
+      "PackagePath": "staticwebassets\\css\\sign_up.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\css\\visit.css",
+      "PackagePath": "staticwebassets\\css\\visit.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\about_img1.jpg",
+      "PackagePath": "staticwebassets\\img\\about_img1.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\about_img2.PNG",
+      "PackagePath": "staticwebassets\\img\\about_img2.PNG"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\about_img3.jpeg",
+      "PackagePath": "staticwebassets\\img\\about_img3.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\alex_citadel.jpeg",
+      "PackagePath": "staticwebassets\\img\\alex_citadel.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\alex_event_1.jpeg",
+      "PackagePath": "staticwebassets\\img\\alex_event_1.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\alex_library.jpeg",
+      "PackagePath": "staticwebassets\\img\\alex_library.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\alex_places_2.jpg",
+      "PackagePath": "staticwebassets\\img\\alex_places_2.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\alex_places_3.jpg",
+      "PackagePath": "staticwebassets\\img\\alex_places_3.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\alex_places_4.jpg",
+      "PackagePath": "staticwebassets\\img\\alex_places_4.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\alex_places_5.jpg",
+      "PackagePath": "staticwebassets\\img\\alex_places_5.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\alex_rest_1.jpg",
+      "PackagePath": "staticwebassets\\img\\alex_rest_1.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\alex_rest_2.jpg",
+      "PackagePath": "staticwebassets\\img\\alex_rest_2.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\alex_rest_3.jpg",
+      "PackagePath": "staticwebassets\\img\\alex_rest_3.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\alex_rest_4.jpg",
+      "PackagePath": "staticwebassets\\img\\alex_rest_4.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\alex_rest_5.png",
+      "PackagePath": "staticwebassets\\img\\alex_rest_5.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\alex_taxi.jpeg",
+      "PackagePath": "staticwebassets\\img\\alex_taxi.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\alex_things_1.png",
+      "PackagePath": "staticwebassets\\img\\alex_things_1.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\alex_things_2.png",
+      "PackagePath": "staticwebassets\\img\\alex_things_2.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\alex_things_3.png",
+      "PackagePath": "staticwebassets\\img\\alex_things_3.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\alex_things_4.png",
+      "PackagePath": "staticwebassets\\img\\alex_things_4.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\alex_things_5.jpg",
+      "PackagePath": "staticwebassets\\img\\alex_things_5.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\alex_train.jpeg",
+      "PackagePath": "staticwebassets\\img\\alex_train.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\alex_tram.jpeg",
+      "PackagePath": "staticwebassets\\img\\alex_tram.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\alexandria_bg_img.jpeg",
+      "PackagePath": "staticwebassets\\img\\alexandria_bg_img.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\almontaza.jpeg",
+      "PackagePath": "staticwebassets\\img\\almontaza.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\azhar2.jpg",
+      "PackagePath": "staticwebassets\\img\\azhar2.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\cairo1_bgimage.jpg",
+      "PackagePath": "staticwebassets\\img\\cairo1_bgimage.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\cairo3.jpg",
+      "PackagePath": "staticwebassets\\img\\cairo3.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\cairo_hotels_bg_img.jfif",
+      "PackagePath": "staticwebassets\\img\\cairo_hotels_bg_img.jfif"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\cairo_places_bg_img.jpg",
+      "PackagePath": "staticwebassets\\img\\cairo_places_bg_img.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\cairo_restaurant_bg_img.jpeg",
+      "PackagePath": "staticwebassets\\img\\cairo_restaurant_bg_img.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\cairo_things_bg_img.jpeg",
+      "PackagePath": "staticwebassets\\img\\cairo_things_bg_img.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\discover_1.jpeg",
+      "PackagePath": "staticwebassets\\img\\discover_1.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\discover_2.jpeg",
+      "PackagePath": "staticwebassets\\img\\discover_2.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\discover_3.jpeg",
+      "PackagePath": "staticwebassets\\img\\discover_3.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\discover_4.jpeg",
+      "PackagePath": "staticwebassets\\img\\discover_4.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\discover_5.jpeg",
+      "PackagePath": "staticwebassets\\img\\discover_5.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\discover_bg.jpeg",
+      "PackagePath": "staticwebassets\\img\\discover_bg.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\discover_img_1.jpg",
+      "PackagePath": "staticwebassets\\img\\discover_img_1.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\discover_img_2.jpg",
+      "PackagePath": "staticwebassets\\img\\discover_img_2.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\discover_img_3.jpg",
+      "PackagePath": "staticwebassets\\img\\discover_img_3.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\discover_img_4.jpg",
+      "PackagePath": "staticwebassets\\img\\discover_img_4.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\discover_img_5.jpg",
+      "PackagePath": "staticwebassets\\img\\discover_img_5.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\dusit-thani-lakeview.jpg",
+      "PackagePath": "staticwebassets\\img\\dusit-thani-lakeview.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\egyption musuem.jpg",
+      "PackagePath": "staticwebassets\\img\\egyption musuem.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\favourite (1).jpeg",
+      "PackagePath": "staticwebassets\\img\\favourite (1).jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\felucca.jpg",
+      "PackagePath": "staticwebassets\\img\\felucca.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\fs-san-stefano 1.png",
+      "PackagePath": "staticwebassets\\img\\fs-san-stefano 1.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\golden_jewel.png",
+      "PackagePath": "staticwebassets\\img\\golden_jewel.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\hantour.jpg",
+      "PackagePath": "staticwebassets\\img\\hantour.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\helnan-palestine-hotel 1.png",
+      "PackagePath": "staticwebassets\\img\\helnan-palestine-hotel 1.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\kempiniski_carousel_1.png",
+      "PackagePath": "staticwebassets\\img\\kempiniski_carousel_1.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\kempiniski_carousel_2.png",
+      "PackagePath": "staticwebassets\\img\\kempiniski_carousel_2.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\kempiniski_carousel_3.jpg",
+      "PackagePath": "staticwebassets\\img\\kempiniski_carousel_3.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\kempiniski_slider_1.png",
+      "PackagePath": "staticwebassets\\img\\kempiniski_slider_1.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\khan el khalili1.jpg",
+      "PackagePath": "staticwebassets\\img\\khan el khalili1.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\le-passage-cairo.jpg",
+      "PackagePath": "staticwebassets\\img\\le-passage-cairo.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\lobby.jpg",
+      "PackagePath": "staticwebassets\\img\\lobby.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\logo_2.jpeg",
+      "PackagePath": "staticwebassets\\img\\logo_2.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\metro_stations2.png",
+      "PackagePath": "staticwebassets\\img\\metro_stations2.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\omarkhairat.jpg",
+      "PackagePath": "staticwebassets\\img\\omarkhairat.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\pharoans.png",
+      "PackagePath": "staticwebassets\\img\\pharoans.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\profile.jpeg",
+      "PackagePath": "staticwebassets\\img\\profile.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\profile_bg.jpeg",
+      "PackagePath": "staticwebassets\\img\\profile_bg.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\profile_bg.jpg",
+      "PackagePath": "staticwebassets\\img\\profile_bg.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\restaurant_1.jpeg",
+      "PackagePath": "staticwebassets\\img\\restaurant_1.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\restaurant_2.jpeg",
+      "PackagePath": "staticwebassets\\img\\restaurant_2.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\restaurant_3.jpeg",
+      "PackagePath": "staticwebassets\\img\\restaurant_3.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\restaurant_4.jpeg",
+      "PackagePath": "staticwebassets\\img\\restaurant_4.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\restaurant_5.jpeg",
+      "PackagePath": "staticwebassets\\img\\restaurant_5.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\review_been_there_1.jpg",
+      "PackagePath": "staticwebassets\\img\\review_been_there_1.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\review_been_there_2.jpg",
+      "PackagePath": "staticwebassets\\img\\review_been_there_2.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\review_been_there_3.jpg",
+      "PackagePath": "staticwebassets\\img\\review_been_there_3.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\reviews_img.jpeg",
+      "PackagePath": "staticwebassets\\img\\reviews_img.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\royal-maxim-palace-kempinski (1).jpg",
+      "PackagePath": "staticwebassets\\img\\royal-maxim-palace-kempinski (1).jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\saigon-restaurant.jpg",
+      "PackagePath": "staticwebassets\\img\\saigon-restaurant.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\salaheldin.jpg",
+      "PackagePath": "staticwebassets\\img\\salaheldin.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\section_1.jpeg",
+      "PackagePath": "staticwebassets\\img\\section_1.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\section_2.jpeg",
+      "PackagePath": "staticwebassets\\img\\section_2.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\section_2_img1.jpeg",
+      "PackagePath": "staticwebassets\\img\\section_2_img1.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\section_2_img2.jpeg",
+      "PackagePath": "staticwebassets\\img\\section_2_img2.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\section_3.jpeg",
+      "PackagePath": "staticwebassets\\img\\section_3.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\section_4.jpeg",
+      "PackagePath": "staticwebassets\\img\\section_4.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\services_1.jpeg",
+      "PackagePath": "staticwebassets\\img\\services_1.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\services_2.jpeg",
+      "PackagePath": "staticwebassets\\img\\services_2.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\services_3.jpeg",
+      "PackagePath": "staticwebassets\\img\\services_3.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\shark-s-bay-beach.jpg",
+      "PackagePath": "staticwebassets\\img\\shark-s-bay-beach.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\sign_in_bg.jpg",
+      "PackagePath": "staticwebassets\\img\\sign_in_bg.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\sign_in_screen.png",
+      "PackagePath": "staticwebassets\\img\\sign_in_screen.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\steigenberger-cecil-hotel 1.png",
+      "PackagePath": "staticwebassets\\img\\steigenberger-cecil-hotel 1.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\steigenberger-el-tahir.jpg",
+      "PackagePath": "staticwebassets\\img\\steigenberger-el-tahir.jpg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\sunrise_avenue.png",
+      "PackagePath": "staticwebassets\\img\\sunrise_avenue.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\things_1.jpeg",
+      "PackagePath": "staticwebassets\\img\\things_1.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\things_2.jpeg",
+      "PackagePath": "staticwebassets\\img\\things_2.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\things_3.jpeg",
+      "PackagePath": "staticwebassets\\img\\things_3.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\things_4.jpeg",
+      "PackagePath": "staticwebassets\\img\\things_4.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\things_5.jpeg",
+      "PackagePath": "staticwebassets\\img\\things_5.jpeg"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\user_review_1.png",
+      "PackagePath": "staticwebassets\\img\\user_review_1.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\user_review_10.png",
+      "PackagePath": "staticwebassets\\img\\user_review_10.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\user_review_11.png",
+      "PackagePath": "staticwebassets\\img\\user_review_11.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\user_review_12.png",
+      "PackagePath": "staticwebassets\\img\\user_review_12.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\user_review_13.png",
+      "PackagePath": "staticwebassets\\img\\user_review_13.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\user_review_2.png",
+      "PackagePath": "staticwebassets\\img\\user_review_2.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\user_review_3.png",
+      "PackagePath": "staticwebassets\\img\\user_review_3.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\user_review_4.png",
+      "PackagePath": "staticwebassets\\img\\user_review_4.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\user_review_5.png",
+      "PackagePath": "staticwebassets\\img\\user_review_5.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\user_review_6.png",
+      "PackagePath": "staticwebassets\\img\\user_review_6.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\user_review_7.png",
+      "PackagePath": "staticwebassets\\img\\user_review_7.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\user_review_8.png",
+      "PackagePath": "staticwebassets\\img\\user_review_8.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\img\\user_review_9.png",
+      "PackagePath": "staticwebassets\\img\\user_review_9.png"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\js\\about.js",
+      "PackagePath": "staticwebassets\\js\\about.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\js\\cairo.js",
+      "PackagePath": "staticwebassets\\js\\cairo.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\js\\cairo_hotel_1.js",
+      "PackagePath": "staticwebassets\\js\\cairo_hotel_1.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\js\\cairo_places.js",
+      "PackagePath": "staticwebassets\\js\\cairo_places.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\js\\favorite.js",
+      "PackagePath": "staticwebassets\\js\\favorite.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\js\\home.js",
+      "PackagePath": "staticwebassets\\js\\home.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\js\\profile.js",
+      "PackagePath": "staticwebassets\\js\\profile.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\js\\reviews.js",
+      "PackagePath": "staticwebassets\\js\\reviews.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\js\\sign_up.js",
+      "PackagePath": "staticwebassets\\js\\sign_up.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\video\\IMG_5088.mp4",
+      "PackagePath": "staticwebassets\\video\\IMG_5088.mp4"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\video\\alex_video.mp4",
+      "PackagePath": "staticwebassets\\video\\alex_video.mp4"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\video\\cairo_video.mp4",
+      "PackagePath": "staticwebassets\\video\\cairo_video.mp4"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\video\\thesphinxavenue.mp4",
+      "PackagePath": "staticwebassets\\video\\thesphinxavenue.mp4"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "D:\\bondok\\Nile-journy\\Nile-journy\\wwwroot\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Nile-journy.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Nile-journy.props",
+      "PackagePath": "build\\Nile-journy.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Nile-journy.props",
+      "PackagePath": "buildMultiTargeting\\Nile-journy.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Nile-journy.props",
+      "PackagePath": "buildTransitive\\Nile-journy.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

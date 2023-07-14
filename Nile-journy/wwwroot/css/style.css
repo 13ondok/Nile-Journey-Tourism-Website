@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary-color: white;
+    --secondary-color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/******************* Start Sign In Page ***************************/
+
+.landing_page {
+    background-image: url(../img/sign_in_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: var(--primary-color);
+}
+
+.landing_page .info {
+    display: flex;
+}
+
+.landing_page .info .content {
+    width: 60%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+
+.landing_page .info .content h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 5rem;
+    opacity: .68;
+    letter-spacing: 3px
+}
+
+.landing_page .info .content p {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    margin-top: -5px;
+}
+
+.landing_page .info .sign_in {
+    text-align: left;
+    width: 40%;
+    padding: 40px;
+    position: relative;
+}
+
+.landing_page .info .sign_in::before {
+    content: "";
+    position: absolute;
+    background-color: var(--secondary-color);
+    opacity: .25;
+    inset: 0;
+    border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
+}
+
+.landing_page .info .sign_in h2 {
+    margin-bottom: 100px;
+    font-family: 'Playfair Display', serif;
+    font-size: 3.7rem;
+    font-weight: 400;
+    opacity: .80;
+}
+
+.landing_page .info .sign_in form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.landing_page .info .sign_in form label {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+}
+
+
+.landing_page .info .sign_in form input,
+.landing_page .info .sign_in form input {
+    padding: 10px 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid white;
+    margin-bottom: 110px;
+    outline: none;
+    color: var(--primary-color);
+}
+
+.landing_page .info .sign_in form i {
+    position: absolute;
+    top: 193px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.landing_page .info .sign_in form .eye {
+    display: none;
+}
+
+.landing_page .info .sign_in form .submitted {
+    position: relative;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.landing_page .info .sign_in form input[type="submit"] {
+    font-family: 'Playfair Display', serif;
+    background-color: rgba(0, 0, 0, .56);
+    color: var(--primary-color);
+    padding: 10px 50px;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.landing_page .info .sign_in form .submitted a {
+    font-family: 'Playfair Display', serif;
+    color: var(--primary-color);
+    font-size: 1.4rem;
+}
+
+.landing_page .info .sign_in .socials {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 60px;
+}
+
+.landing_page .info .sign_in .socials a {
+    margin-right: 20px;
+    color: var(--secondary-color);
+}
+
+
+
+
+/******************* End Sign In Page ***************************/

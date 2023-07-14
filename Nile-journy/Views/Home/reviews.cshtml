@@ -1,0 +1,453 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+@*@model IEnumerable< Nile_journy.Models.Reviews>*@
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nile Journey</title>
+    <link rel="stylesheet" href="~/css/all.min.css">
+    <link rel="stylesheet" href="~/css/home.css">
+    <link rel="stylesheet" href="~/css/reviews.css">
+</head>
+
+<body>
+
+    <div class="nav_container">
+        <nav>
+            <div class="logo">
+                <i class="fa-regular fa-compass" style="color: #ffffff;"></i>
+                <a class="logo_up" href="#">Nile Journey</a>
+                <ul class="navigation">
+                     <li><a href="~/Home/home">Home</a></li>
+                    <li><a href="~/Home/review">Review</a></li>
+                    <li><a href="~/Home/favorites">Favorite</a></li>
+                    <li><a href="~/Home/about">About Egypt</a></li>
+                </ul>
+            </div>
+            <div class="profile">
+                <div class="search">
+                    <input type="text" name="search">
+                    <a class="magnyfing" href="#">
+                        <i class="fa-solid fa-magnifying-glass searching"
+                           style="color: #ffffff;"></i>
+                    </a>
+                </div>
+                <div class="links">
+                    <a href="profile.html"><i class="fa-solid fa-user" style="color: #ffffff;"></i></a>
+                    <a href="#" class="log_out">Log out</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <dialog class="modal">
+        <div class="content">
+            <div class="tell_us">
+                <h2>Tell us, How was<br> your Trip?</h2>
+                <div class="card">
+                    <img src="~/img/royal-maxim-palace-kempinski (1).jpg" alt="">
+                    <p>Fairmont Nile Hotel</p>
+                    <a href="#"><i class="fa-solid fa-location-dot" style="color: #000000;"></i>Cairo, Egypt</a>
+                </div>
+            </div>
+            @using (Html.BeginForm("submitReview", "Home", FormMethod.Post))
+            {
+            <div class="rating">
+              
+                <h4>How Would you rate your experience?</h4>
+                <div class="stars">
+                    <i class="fa-regular fa-star" style="color: #000000;"></i>
+                    <i class="fa-regular fa-star" style="color: #000000;"></i>
+                    <i class="fa-regular fa-star" style="color: #000000;"></i>
+                    <i class="fa-regular fa-star" style="color: #000000;"></i>
+                    <i class="fa-regular fa-star" style="color: #000000;"></i>
+                </div>
+                <h4>Who did you go with?</h4>
+                <div class="categories">
+                    <ul>
+                        <li><a class="active" href="#">Couple</a></li>
+                        <li><a href="#">Single</a></li>
+                        <li><a href="#">Family</a></li>
+                        <li><a href="#">Business</a></li>
+                    </ul>
+                </div>
+                <h4>Write a Review</h4>
+                <textarea name="review" cols="30" rows="10" placeholder="Write Your Opinion"></textarea>
+                <h4>Title Your Review</h4>
+                <input type="text" name="titleReview" placeholder="What's Your Opinion">
+            </div>
+      
+        <div class="buttons">
+            <button class="close">Cancel</button>
+            <button class="confirm">Confirm</button>
+        </div>
+        <i class="fa-solid fa-xmark esc" style="color: #ffffff;"></i>
+ 
+        }
+      </dialog>
+  </div>
+    <section class="landing_page">
+        <div class="video">
+            <video autoplay loop muted>
+                <source src="~/video/thesphinxavenue.mp4">
+            </video>
+        </div>
+        <div class="content">
+            <div class="container">
+                <h1>Write a Review and share with us</h1>
+                <p>
+                    Stories like yours are what helps travelers have better trips. <br> Share your experience and help
+                    out a
+                    fellow traveler!
+                </p>
+                <form action="#">
+                    <input type="text" name="searchReview" placeholder="What would you like to review">
+                    <button type="submit" class="send">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="places">
+        <div class="container">
+            <h2>Been Here?</h2>
+            <div class="monuments">
+                <div class="monument">
+                    <div class="image">
+                        <img src="~/img/review_been_there_1.jpg" alt="reviews image">
+                    </div>
+                    <div class="content">
+                        <h3>Mohamed Ali Mosque</h3>
+                        <p>Cairo</p>
+                        <span>Your Review</span>
+                        <div class="stars">
+                            <i class="fa-regular fa-star" style="color: #000000;"></i>
+                            <i class="fa-regular fa-star" style="color: #000000;"></i>
+                            <i class="fa-regular fa-star" style="color: #000000;"></i>
+                            <i class="fa-regular fa-star" style="color: #000000;"></i>
+                            <i class="fa-regular fa-star" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="monument">
+                    <div class="image">
+                        <img src="~/img/review_been_there_2.jpg" alt="reviews image">
+                    </div>
+                    <div class="content">
+                        <h3>Triumph Plaza Hotel</h3>
+                        <p>Cairo</p>
+                        <span>Your Review</span>
+                        <div class="stars">
+                            <i class="fa-regular fa-star" style="color: #000000;"></i>
+                            <i class="fa-regular fa-star" style="color: #000000;"></i>
+                            <i class="fa-regular fa-star" style="color: #000000;"></i>
+                            <i class="fa-regular fa-star" style="color: #000000;"></i>
+                            <i class="fa-regular fa-star" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="monument">
+                    <div class="image">
+                        <img src="~/img/review_been_there_3.jpg" alt="reviews image">
+                    </div>
+                    <div class="content">
+                        <h3>Nişantaşi</h3>
+                        <p>Cairo</p>
+                        <span>Your Review</span>
+                        <div class="stars">
+                            <i class="fa-regular fa-star" style="color: #000000;"></i>
+                            <i class="fa-regular fa-star" style="color: #000000;"></i>
+                            <i class="fa-regular fa-star" style="color: #000000;"></i>
+                            <i class="fa-regular fa-star" style="color: #000000;"></i>
+                            <i class="fa-regular fa-star" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="your_reviews">
+        <div class="container">
+            <div class="heading">
+                <h2>Your Reviews</h2>
+            </div>
+            <div class="content">
+               
+                <div class="card">
+                    <div class="image">
+                        <img src="~/img/reviews_img.jpeg" alt="reviews image">
+                    </div>
+                    <div class="info">
+                        <h3>Cleopatra Beach</h3>
+                        <p><i class="fa-solid fa-location-dot" style="color: #000000;"></i>Marsa Matroh</p>
+                        <span>Your Review</span>
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #000000;"></i>
+                            <i class="fa-solid fa-star" style="color: #000000;"></i>
+                            <i class="fa-solid fa-star" style="color: #000000;"></i>
+                            <i class="fa-regular fa-star" style="color: #000000;"></i>
+                            <i class="fa-regular fa-star" style="color: #000000;"></i>
+                        </div>
+                        <p class="desc">
+                            Very good natural sea beach. Clean and peaceful. Very good for fun activities
+                            with children
+                            and family. Easily accessible from Resorts
+                            Message
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="~/img/royal-maxim-palace-kempinski (1).jpg" alt="reviews image">
+                    </div>
+                    <div class="info">
+                        <h3>Renaissance Cairo Mirage City Hotel</h3>
+                        <p>
+                            <i class="fa-solid fa-location-dot" style="color: #000000;"></i>Ring Road, Mirage City
+                            Heliopolis
+                        </p>
+                        <span>Your Review</span>
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #000000;"></i>
+                            <i class="fa-solid fa-star" style="color: #000000;"></i>
+                            <i class="fa-solid fa-star" style="color: #000000;"></i>
+                            <i class="fa-regular fa-star" style="color: #000000;"></i>
+                            <i class="fa-regular fa-star" style="color: #000000;"></i>
+                        </div>
+                        <p class="desc">
+                            Amazing staff that made me see everything in the hotel perfect. They are
+                            friendly and always eager to help. The location of the hotel is not the best but taxis are
+                            available. Breakfast is one of the best that I have seen.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="~/img/saigon-restaurant.jpg" alt="reviews image">
+                    </div>
+                    <div class="info">
+                        <h3>Saigon Restaurant & Lounge</h3>
+                        <p>
+                            <i class="fa-solid fa-location-dot" style="color: #000000;"></i> Corniche El Nil Fairmont
+                            Towers Nile City-
+                        </p>
+                        <span>Your Review</span>
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #000000;"></i>
+                            <i class="fa-solid fa-star" style="color: #000000;"></i>
+                            <i class="fa-solid fa-star" style="color: #000000;"></i>
+                            <i class="fa-regular fa-star" style="color: #000000;"></i>
+                            <i class="fa-regular fa-star" style="color: #000000;"></i>
+                        </div>
+                        <p class="desc">
+                            Great service, amazing food. Bahaa took great care of us. The price is very
+                            reasonable and the environment is sophisticated. Beautiful view of the Nile.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="~/img/shark-s-bay-beach.jpg" alt="reviews image">
+                    </div>
+                    <div class="info">
+                        <h3>Shark's Bay Beach</h3>
+                        <p><i class="fa-solid fa-location-dot" style="color: #000000;"></i>Sharm el sheikh</p>
+                        <span>Your Review</span>
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #000000;"></i>
+                            <i class="fa-solid fa-star" style="color: #000000;"></i>
+                            <i class="fa-solid fa-star" style="color: #000000;"></i>
+                            <i class="fa-regular fa-star" style="color: #000000;"></i>
+                            <i class="fa-regular fa-star" style="color: #000000;"></i>
+                        </div>
+                        <p class="desc">
+                            This hotel is full of good energy. Very compact, but comfortable. They have
+                            lovely stuff here. Food is very tasty and rooms very bright and clean we spent wonderful
+                            time here. We want say thank you to all entertainment group as well.
+                        </p>
+                    </div>
+                </div>
+                    @if (Model != null)
+                    {
+                            @foreach(var item in Model)
+                    {
+
+                  
+                    <div class="card">
+                        <div class="image">
+                                <img src="~/img/royal-maxim-palace-kempinski (1).jpg" alt="reviews image">
+                        </div>
+                        <div class="info">
+                            <h3>@item.title</h3>
+                            <p><i class="fa-solid fa-location-dot" style="color: #000000;"></i>Cairo Egypt</p>
+                            <span>Your Review</span>
+                            <div class="stars">
+                                <i class="fa-solid fa-star" style="color: #000000;"></i>
+                                <i class="fa-solid fa-star" style="color: #000000;"></i>
+                                <i class="fa-solid fa-star" style="color: #000000;"></i>
+                                <i class="fa-regular fa-star" style="color: #000000;"></i>
+                                <i class="fa-regular fa-star" style="color: #000000;"></i>
+                            </div>
+                            <p class="desc">
+                                        @item.writing
+                            </p>
+                        </div>
+                               
+                </div>
+                 }
+                                }
+           
+        </div>
+    </div>
+
+    <section class="subscribe">
+        <div class="container">
+            <div class="content">
+                <p>Subscribe to get all the news!</p>
+                <form action="#">
+                    <input type="email" name="email" placeholder="Enter your Email">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="infos">
+                <div class="info">
+                    <h2>About Nile Journey</h2>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                    <div class="links">
+                        <a href="#"><i class="fa-solid fa-location-dot" style="color: #000000;"></i>Cairo, Egypt</a>
+                        <a href="#"><i class="fa-solid fa-headset" style="color: #000000;"></i>+20012345678</a>
+                        <a href="#">
+                            <i class="fa-regular fa-envelope"
+                               style="color: #000000;"></i>info@nilejourney.com
+                        </a>
+                    </div>
+                </div>
+                <div class="info">
+                    <h2>Explore</h2>
+                    <div class="content">
+                        <ul class="left">
+                            <li><a href="#">About Egypt</a></li>
+                            <li><a href="#">Write a Review</a></li>
+                            <li><a href="#">Cairo</a></li>
+                            <li><a href="#">Alexandria</a></li>
+                            <li><a href="#">Aswan</a></li>
+                            <li><a href="#">Luxor</a></li>
+                        </ul>
+                        <ul class="right">
+                            <li><a href="#">Siwa</a></li>
+                            <li><a href="#">Sharm</a></li>
+                            <li><a href="#">Marsa Matrouh</a></li>
+                            <li><a href="#">Join</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Favorites</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="info">
+                    <h2>Follow Us</h2>
+                    <div class="socials">
+                        <a href=""><i class="fa-brands fa-facebook" style="color: #000000;"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter" style="color: #000000;"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube" style="color: #000000;"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        let nav = document.querySelector(".nav_container");
+
+
+        window.onscroll = function () { showOverlay() };
+
+        function showOverlay() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                nav.classList.add("active");
+            } else {
+                nav.classList.remove("active");
+            }
+        }
+
+        ////////////////////////////////////////////////////////
+
+        let landing = document.querySelector(".landing_page .content"),
+            logoutBtn = document.querySelector(".log_out");
+
+
+        if (logoutBtn) {
+            logoutBtn.onclick = function () {
+                landing.innerHTML += `<div class="log_out_screen">
+                    <h2>Logout</h2>
+                    <p>After logging out from your account you will still be able top access</p>
+                    <div class="buttons">
+                        <a href="reviews.html"><button class="cancel">Cancel</button></a>
+                        <a href="home.html"><button class="logout">Logout</button></a>
+                    </div>
+                </div>`
+            }
+        }
+
+        /////////////////////////////////////////////////////////////////////////////
+
+        let popupBtn = document.querySelector(".send"),
+            closeModal = document.querySelector(".modal .close"),
+            inputField = document.querySelector(".landing_page .content .container form input"),
+            escModal = document.querySelector(".modal .esc"),
+            modal = document.querySelector(".modal");
+
+
+
+        popupBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            if (!inputField.value.length == 0) {
+                modal.showModal();
+            }
+            else {
+                alert("please select a place");
+            }
+        })
+
+        closeModal.addEventListener("click", () => {
+            modal.close();
+        })
+
+        escModal.addEventListener("click", () => {
+            modal.close();
+        })
+
+        //////////////////////////////////////////////////////////////////////////////
+
+        let categoriesList = document.querySelectorAll(".modal .content .rating .categories ul li a");
+
+        categoriesList.forEach((list) => {
+            list.addEventListener("click", () => {
+                for (let index = 0; index < categoriesList.length; index++) {
+                    const category = categoriesList[index];
+                    category.classList.remove("active");
+                }
+                list.classList.add("active");
+            })
+        })
+    </script>
+
+    <script src="js/reviews.js"></script>
+</body>
+

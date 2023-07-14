@@ -1,0 +1,689 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+/******************************** Global **********************************/
+
+:root {
+    --bg-color: #DFC5A3;
+    --secondary-color1: #050101;
+    --secondary-color2: #2e1a0e;
+    --kaushan-font: 'Kaushan Script', cursive;
+    --lobster-font: 'Lobster', cursive;
+    --gruppo-font: 'Gruppo', cursive;
+    --cardo-font: 'Cardo', serif;
+    --avro-font: 'Arvo', serif;
+    --kodchasan: 'Kodchasan', sans-serif;
+    --abhaya-font: 'Abhaya Libre', serif;
+    --philosopher-font: 'Philosopher', sans-serif;
+    --alpha-font: 'Alfa Slab One', cursive;
+    --primary-bg: #BA927A;
+    --card-color: #CDB5A7;
+    scroll-behavior: smooth;
+}
+
+p {
+    margin: 0;
+}
+
+.landing {
+    background: url("../img/cairo1_bgimage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: grid;
+}
+
+.landing::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.landing .container {
+    position: relative;
+}
+
+.landing h1 {
+    font-family: var(--kaushan-font);
+    font-size: 7rem;
+    color: white;
+}
+
+/******************************** Categories *******************************/
+
+.categories {
+    background-color: var(--primary-bg);
+    padding: 40px 0;
+}
+
+.categories .container {
+    max-width: 70%;
+    margin: auto;
+}
+
+.categories .items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(250px, 100%), 1fr));
+    place-items: center;
+    margin-top: -40px;
+    position: relative;
+}
+
+.categories .information {
+    max-width: 70%;
+    margin: auto;
+}
+
+.categories .items .item {
+    margin-bottom: 60px;
+}
+
+.categories .items .item a i {
+    margin-left: 10px;
+}
+
+.categories .items .item a {
+    background-color: rgba(0, 0, 0, .65);
+    padding: 20px 15px;
+    color: white;
+    font-family: var(--philosopher-font);
+    font-size: 1.6rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.categories .information {
+    margin: 30px auto;
+}
+
+.categories .information h3 {
+    font-size: 2rem;
+    font-family: var(--philosopher-font);
+    color: white;
+    margin-bottom: 20px;
+}
+
+.categories .information p {
+    color: white;
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+/*************************** Visited **********************************/
+
+.visited {
+    background-color: var(--primary-bg);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.visited::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    width: 40%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.visited .heading {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+.visited .heading::before,
+.visited .heading::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 37%;
+    top: 50%;
+}
+
+.visited .heading::before {
+    left: 0;
+}
+
+.visited .heading::after {
+    right: 0;
+}
+
+
+.visited .heading h2 {
+    color: white;
+    font-family: var(--philosopher-font);
+    font-size: 2.5rem;
+}
+
+.visited .pictures {
+    display: flex;
+    position: relative;
+}
+
+.visited .pictures .more {
+    color: black;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 10px;
+    bottom: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgba(255, 255, 255, .45);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 88;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.visited .pictures .more:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.visited .pictures > div{
+    position: relative;
+    flex-grow: 1;
+}
+
+.visited .pictures > div::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(0, 0, 0, .45);
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.visited .pictures > div .content {
+    position: absolute;
+    display: flex;
+    align-items: end;
+    text-align: left;
+    height: 0;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    overflow: hidden;
+}
+
+.visited .pictures > div:hover::before,
+.visited .pictures > div:hover .content {
+    height: 100%;
+}
+
+.visited .pictures > div .content h3 {
+    color: white;
+    font-size: 5rem;
+    font-family: var(--alpha-font);
+}
+
+.visited .pictures > div .content a {
+    color: black;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgba(255, 255, 255, .45);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.visited .pictures > div .content a:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.visited .pictures > div img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+/************************** Transportation *********************************/
+
+.transportation {
+    background-color: var(--primary-bg);
+    padding: 60px 0;
+}
+
+.transportation .container {
+    max-width: 70%;
+    margin: auto;
+}
+
+.transportation .information {
+    margin-bottom: 50px;
+    max-width: 70%;
+    margin: auto;
+}
+
+.transportation .information h3 {
+    font-family: var(--philosopher-font);
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.transportation .information p {
+    font-size: 1.3rem;
+    color: white;
+    line-height: 1.6;
+    font-family: var(--kodchasan);
+}
+
+.transportation .transport {
+    margin-top: 40px;
+}
+
+.transportation .transport .cont {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(350px, 100%), 1fr));
+    place-items: center;
+    align-items: center;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.transportation .transport .cont::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+
+.transportation .transport .cont > div {
+    position: relative;
+}
+
+.transportation .transport .cont > div.active {
+    position: relative;
+}
+
+.transportation .transport .cont > div.active::before {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.transportation .transport .content {
+    max-width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.transportation .transport .content > div {
+    height: 0;
+    overflow: hidden;
+    text-align: left;
+}
+
+.transportation .transport .content > div h2 {
+    font-size: 2rem;
+    font-family: var(--abhaya-font);
+}
+
+.transportation .transport .content > div.active {
+    height: 100%;
+}
+
+.transportation .transport .content > div .items {
+    display: flex;
+    margin-top: 30px;
+}
+
+.transportation .transport .content > div .items p {
+    margin: 0;
+    color: white;
+    line-height: 1.6;
+    font-family: var(--kodchasan);
+}
+
+.transportation .transport .content > div .items img {
+    width: 300px;
+    height: 250px;
+    margin-left: 20px;
+}
+
+.transportation .transport .content > div > p {
+    margin-top: 10px;
+    font-family: var(--abhaya-font);
+}
+
+.transportation .transport .content > div a {
+    color: black;
+    text-decoration: underline;
+}
+
+.transportation .transport .cont > div a {
+    color: black;
+    font-family: var(--kodchasan);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.transportation .transport .cont > div a i {
+    margin-left: 10px;
+}
+
+/************************** Events *********************************/
+
+.events {
+    background-color: var(--primary-bg);
+    padding-bottom: 70px;
+    position: relative;
+}
+
+.events .container {
+    max-width: 70%;
+    margin: auto;
+}
+
+.events .heading {
+    margin-bottom: 40px;
+}
+
+.events .heading h2 {
+    color: white;
+    font-family: var(--philosopher-font);
+    font-size: 2rem;
+    padding-left: 70px;
+
+}
+
+.events .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(350px, 100%), 1fr));
+    place-items: center;
+}
+
+.events .cards .card {
+    background-color: var(--card-color);
+    overflow: hidden;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.events .cards .card:hover {
+    transform: scale(.9);
+    box-shadow: -8px 14px 28px 9px rgba(0, 0, 0, 0.25);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+}
+
+.events .cards .card .info {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+.events .cards .card .info p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.events .cards .card .info .links p {
+    margin: 10px 0;
+}
+
+.events .cards .card .info .links a {
+    color: black;
+}
+
+.events .cards .card .info .links a i,
+.events .cards .card .info .links p i {
+    margin-right: 10px;
+}
+
+.events .cards .card img {
+    max-width: 300px;
+}
+
+.events .more {
+    position: absolute;
+    right: 100px;
+    top: 50%;
+    font-size: 1.3rem;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.events .more:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/************************** Video *********************************/
+
+.video {
+    background-color: black;
+    text-align: left;
+}
+
+.video video {
+    width: 100%;
+    height: 300px;
+
+}
+
+/************************** Reviews *********************************/
+
+.reviews {
+    background-color: var(--primary-bg);
+    text-align: center;
+    padding: 80px 0;
+}
+
+.reviews .container {
+    max-width: 70%;
+    margin: auto;
+}
+
+/* .reviews .heading h2 {
+    font-family: var(--philosopher-font);
+    font-size: 2rem;
+    margin-bottom: 30px;
+} */
+
+.reviews .heading {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+.reviews .heading::before,
+.reviews .heading::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 37%;
+    top: 50%;
+}
+
+.reviews .heading::before {
+    left: 0;
+}
+
+.reviews .heading::after {
+    right: 0;
+}
+
+
+.reviews .heading h2 {
+    color: white;
+    font-family: var(--philosopher-font);
+    font-size: 2.5rem;
+}
+
+.reviews .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(250px, 100%), 1fr));
+    place-items: center;
+    gap: 20px;
+}
+
+.reviews .cards .card {
+    background-color: var(--card-color);
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.36);
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.reviews .cards .card:hover {
+    box-shadow: -8px 14px 28px 9px rgba(0, 0, 0, 0.25);
+    transform: scale(.9);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+}
+
+.reviews .cards .card .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.reviews .cards .card .header .info {
+    text-align: left;
+}
+
+.reviews .cards .card .header .info h4{
+    font-size: 1.1rem;
+}
+
+.reviews .cards .card .header .info p {
+    margin: 0;
+}
+
+.reviews .cards .card .header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 20px;
+}
+
+.reviews .cards .card .content .stars {
+    margin-bottom: 20px;
+}
+
+.reviews .cards .card .content h3 {
+    margin-bottom: 5px;
+}
+
+/************************** Media Queries *********************************/
+
+@media (max-width: 1400px) {
+
+    .visited .heading::before,
+    .visited .heading::after {
+        width: 35%;
+    }
+}
+
+
+@media (max-width: 1240px) {
+
+    .visited .heading::before,
+    .visited .heading::after {
+        width: 30%;
+    }
+}

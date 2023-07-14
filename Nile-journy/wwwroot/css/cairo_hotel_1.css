@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+/******************************** Global **********************************/
+
+:root {
+    --bg-color: #DFC5A3;
+    --secondary-bgColor: #BA927A;
+    --secondary-color2: #2e1a0e;
+    --kaushan-font: 'Kaushan Script', cursive;
+    --lobster-font: 'Lobster', cursive;
+    --gruppo-font: 'Gruppo', cursive;
+    --cardo-font: 'Cardo', serif;
+    --avro-font: 'Arvo', serif;
+    --kodchasan: 'Kodchasan', sans-serif;
+    --abhaya-font: 'Abhaya Libre', serif;
+    --philosopher-font: 'Philosopher', sans-serif;
+    --alpha-font: 'Alfa Slab One', cursive;
+    --primary-bg: #FFEDDB;
+    --card-color: #CDB5A7;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--primary-bg);
+}
+
+.modal {
+    max-width: 70%;
+    padding-top: 60px;
+    border: none;
+}
+
+.modal .esc {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 30px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.modal .esc:hover {
+    background-color: red;
+}
+
+.modal .content {
+    display: flex;
+}
+
+.modal .content .tell_us {
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+
+.modal .content .tell_us img {
+    width: 200px;
+}
+
+.modal .content .tell_us h2 {
+    margin-bottom: 20px;
+    font-family: var(--abhaya-font);
+}
+
+.modal .content .tell_us .card {
+    background-color: #EFECEC;
+    width: fit-content;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.modal .content .tell_us .card p {
+    font-size: 1.2rem;
+    font-family: var(--abhaya-font);
+    margin-bottom: 0;
+}
+
+.modal .content .tell_us .card a {
+    color: black;
+    font-size: .8rem;
+}
+
+.modal .content .tell_us .card a i {
+    margin-right: 10px;
+}
+
+.modal .content .rating {
+    margin-left: 20px;
+}
+
+.modal .content .rating h4 {
+    font-family: var(--philosopher-font);
+    margin-bottom: 10px;
+}
+
+.modal .content .rating .stars {
+    margin-bottom: 20px;
+}
+
+.modal .content .rating .hotel_categories {
+    margin-bottom: 20px;
+}
+
+.modal .content .rating .hotel_categories ul {
+    display: flex;
+}
+
+.modal .content .rating .hotel_categories ul li {
+    margin-right: 5px;
+}
+
+.modal .content .rating .hotel_categories ul li a {
+    color: black;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid black;
+}
+
+.modal .content .rating .hotel_categories ul li a.active {
+    background-color: var(--secondary-bgColor);
+    color: white;
+}
+
+.modal .content .rating textarea,
+.modal .content .rating input[type="text"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.modal .buttons {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.modal .buttons>button {
+    background-color: transparent;
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.modal .buttons .close {
+    margin-right: 20px;
+}
+
+/*******************************************************************/
+
+nav .logo .logo_up {
+    color: black;
+    font-size: 30px;
+    font-family: var(--lobster-font);
+    margin-left: 10px;
+}
+
+nav .logo .navigation a {
+    color: black;
+    font-family: var(--cardo-font);
+    font-size: 18px;
+}
+
+.nav_container .profile input {
+    max-width: 600px;
+    padding: 5px 30px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-right: 10px;
+    color: black;
+}
+
+.nav_container .profile .links .log_out {
+    background-color: transparent;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.nav_container.active .profile .links .log_out {
+    color: white;
+}
+
+.nav_container.active .profile input {
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.nav_container.active nav .logo .navigation a {
+    color: white;
+}
+.nav_container.active nav .logo .logo_up {
+    color: white;
+}
+
+
+
+/*******************************************************************/
+
+.hotel_about {
+    padding: 150px 0 0 0;
+}
+
+.hotel_about .container {
+    max-width: 70%;
+    margin: auto;
+}
+
+.hotel_about .info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.hotel_about .info img {
+    width: 500px;
+    height: 500px;
+    margin-right: 40px;
+}
+
+.hotel_about .info .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hotel_about .info .content h2 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-family: var(--abhaya-font);
+}
+
+.hotel_about .info .content p {
+    margin-bottom: 20px;
+}
+
+.hotel_about .info .content > a {
+    font-size: 1.4rem;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.hotel_about .info .content > a i {
+    margin-right: 10px;
+}
+
+
+.hotel_about .info .content p,
+.hotel_about .info .content_special p {
+    font-family: var(--philosopher-font);
+    font-size: 1.4rem;
+}
+
+.hotel_about .info .content_special {
+    max-width: 50%;
+}
+
+.hotel_about .info .facilities {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hotel_about .info .facilities>div {
+    width: calc(100% / 2);
+    margin-bottom: 50px;
+}
+
+.hotel_about .info .facilities>div i,
+.hotel_about .info .facilities>div p {
+    font-size: 2rem;
+}
+
+.hotel_about .info .facilities>div p {
+    font-family: var(--kodchasan);
+    font-weight: bold;
+}
+
+/*******************************************************************/
+
+.rooms {
+    padding-bottom: 80px;
+}
+
+.rooms .container {
+    max-width: 70%;
+    margin: auto;
+    position: relative;
+}
+
+.rooms .image {
+    position: relative;
+}
+
+.rooms .image img {
+    width: 950px;
+    height: 0;
+    overflow: hidden;
+}
+
+.rooms .image img.active {
+    height: 500px;
+}
+
+.rooms .image .dots {
+    display: flex;
+    position: absolute;
+    bottom: 35px;
+    left: 45%;
+}
+
+.rooms .image .dots>a {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 10px;
+}
+
+.rooms .image .dots>a.active {
+    background-color: white;
+}
+
+.rooms h2 {
+    font-size: 5rem;
+    color: black;
+    font-family: var(--kaushan-font);
+    position: absolute;
+    top: -83px;
+    left: 0;
+}
+
+.rooms h2 span {
+    margin-left: 60px;
+}
+
+.rooms .container>a {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.rooms a.right {
+    right: 10px;
+}
+
+.rooms a.left {
+    left: -50px;
+}
+
+.rooms a:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/*******************************************************************/
+
+.hotel_services {
+    padding-bottom: 50px;
+}
+
+.hotel_services .container {
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotel_services .content {
+    width: 30%;
+}
+
+.hotel_services .content .heading {
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.hotel_services .content > p {
+    font-size: 1.6rem;
+}
+
+.hotel_services .content .heading h2 {
+    color: black;
+    font-size: 2rem;
+    font-family: var(--philosopher-font);
+}
+
+.hotel_services .container .carousel {
+    width: 60%;
+    overflow-x: scroll;
+}
+
+.hotel_services .container .carousel::-webkit-scrollbar {
+    height: 20px;
+
+}
+
+.hotel_services .container .carousel::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.hotel_services .container .carousel .pictures {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.hotel_services .container .carousel .pictures>div {
+
+    position: relative;
+}
+
+.hotel_services .container .carousel .pictures img {
+    margin-right: 20px;
+    height: 500px;
+}
+
+.hotel_services .container .carousel .pictures p {
+    font-size: 3rem;
+    color: white;
+    font-family: var(--alpha-font);
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+}
+
+/*******************************************************************/
+
+.hotel_reviews {
+    padding: 60px 0;
+}
+
+.hotel_reviews .container {
+    max-width: 70%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px 40px;
+}
+
+.hotel_reviews .heading {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.hotel_reviews .heading h2 {
+    font-family: var(--philosopher-font);
+    font-size: 2.5rem;
+    color: black;
+}
+
+.hotel_reviews .brief {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.hotel_reviews .brief .rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hotel_reviews .brief .rating h3 {
+    margin-right: 10px;
+    font-size: 3rem;
+    color: black;
+    font-family: var(--philosopher-font);
+}
+
+.hotel_reviews .brief .rating .stars p {
+    color: black;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.hotel_reviews .brief .rating .stars p span {
+    color: black;
+}
+
+.hotel_reviews .brief a {
+    background-color: black;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 1.6rem;
+}
+
+.hotel_reviews .cards .card {
+    border: 1px solid black;
+    padding: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.hotel_reviews .cards .card .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.hotel_reviews .cards .card .header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 20px;
+}
+
+.hotel_reviews .cards .card .header .rate p {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.hotel_reviews .cards .card .content a {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    color: black;
+}
+
+.hotel_reviews .cards .card .content p {
+    font-family: var(--philosopher-font);
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.hotel_reviews .cards .card .helpful {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.4rem;
+    color: black;
+}
+
+.hotel_reviews .cards .card .helpful i {
+    margin-right: 10px;
+}
+
+/*******************************************************************/

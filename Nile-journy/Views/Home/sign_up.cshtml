@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.jpg">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/sign_up.css">
+    <title>Sign Up</title>
+</head>
+
+<body>
+
+    <div class="sign_up"></div>
+
+    <div class="card">
+        <div class="error"></div>
+        <h1>Sign Up</h1>
+        <form action="home_succes.html">
+            <div class="name">
+                <div class="first_name">
+                    <label for="fName">First Name</label>
+                    <input type="text" name="fName" id="fName" required>
+                </div>
+                <div class="last_name">
+                    <label for="fName">Last Name</label>
+                    <input type="text" name="lName" id="lName" required>
+                </div>
+            </div>
+            <label for="phone">Phone Number</label>
+            <input type="text" name="phone" id="phone" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="pass">Password</label>
+            <input class="password" type="password" name="pass" id="pass" required>
+            <label for="confPass">Confirm Password</label>
+            <input class="conf_pass" type="password" name="confPass" id="confPass" required>
+            <div class="submitted">
+                <div class="terms_conditions">
+                    <input type="checkbox" name="terms" id="terms" required>
+                    <label class="terms" for="terms">I agree to all terms and conditions</label>
+                </div>
+                <div class="buttons">
+                    <input type="submit" value="Confirm">
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="js/sign_up.js"></script>
+</body>
+

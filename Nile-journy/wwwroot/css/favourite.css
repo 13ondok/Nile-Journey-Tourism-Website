@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+/******************************** Global **********************************/
+
+:root {
+    --bg-color: #DFC5A3;
+    --secondary-color1: #050101;
+    --secondary-color2: #2e1a0e;
+    --kaushan-font: 'Kaushan Script', cursive;
+    --lobster-font: 'Lobster', cursive;
+    --gruppo-font: 'Gruppo', cursive;
+    --cardo-font: 'Cardo', serif;
+    --avro-font: 'Arvo', serif;
+    --kodchasan: 'Kodchasan', sans-serif;
+    --abhaya-font: 'Abhaya Libre', serif;
+    --philosopher-font: 'Philosopher', sans-serif;
+    --alpha-font: 'Alfa Slab One', cursive;
+    --primary-bg: #BA927A;
+    --card-color: #CDB5A7;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--primary-bg);
+}
+
+.favorite_categories {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.favorite_categories .container {
+    max-width: 70%;
+    margin: auto;
+}
+
+.favorite_categories .container>h2 {
+    color: white;
+    font-family: var(--abhaya-font);
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+}
+
+.favorite_categories .categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(170px, 100%), 1fr));
+    position: relative;
+}
+
+.favorite_categories .categories::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+}
+
+.favorite_categories .categories .category {
+    text-align: center;
+    position: relative;
+}
+
+.favorite_categories .categories .category.active::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 5px;
+    background-color: black;
+    bottom: -40px;
+    left: 25%;
+}
+
+.favorite_categories .categories .category p {
+    font-family: var(--philosopher-font);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.favorite_categories .items {
+    max-width: 85%;
+    margin: auto;
+}
+
+.favorite_categories .items .cards {
+    display: none !important;
+}
+
+.favorite_categories .items>.cards.active {
+    display: grid !important;
+}
+
+.favorite_categories .items .cards {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(230px, 100%), 1fr));
+    place-items: center;
+    gap: 70px;
+}
+
+.favorite_categories .items .cards .card {
+    margin-bottom: 50px;
+    background-color: var(--card-color);
+    overflow: hidden;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.favorite_categories .items .cards .card:hover {
+    transform: scale(.9);
+    box-shadow: -8px 14px 28px 9px rgba(0, 0, 0, 0.25);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+}
+
+.favorite_categories .items .cards .card .info {
+    padding: 10px 20px 20px 20px;
+    font-size: 1.2rem;
+}
+
+.favorite_categories .items .cards .card .info h2,
+.favorite_categories .items .cards .card .info h3 {
+    margin-bottom: 10px;
+}
+
+.favorite_categories .items .cards .card .info p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.favorite_categories .items .cards .card .info .links p {
+    margin: 10px 0;
+}
+
+.favorite_categories .items .cards .card .info .links a,
+.favorite_categories .items .cards .card .info .content .details .location a {
+    color: black;
+}
+
+.favorite_categories .items .cards .card .info .content .details .location a {
+    font-size: 1rem;
+}
+
+.favorite_categories .items .cards .card .info .links a i,
+.favorite_categories .items .cards .card .info .content .details .location a i,
+.favorite_categories .items .cards .card .info .links p i {
+    margin-right: 10px;
+}
+
+.favorite_categories .items .cards .card img {
+    max-width: 300px;
+}
+
+.favorite_categories .items .cards .card img {
+    width: 300px;
+    height: 200px;
+}
+
+
+.favorite_categories .items .cards .card .content .info h2 {
+    font-size: 1rem;
+}
+
+.favorite_categories .items .cards .card .content .info .details .more {
+    margin-top: 40px;
+}
+
+.favorite_categories .items .cards .card .info .content .details .location {
+    margin-bottom: 30px;
+}
+
+.favorite_categories .items .cards .card .info .details .more a {
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 5px 15px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.favorite_categories .items .cards .card .info .details .more a:hover {
+    background-color: white;
+    border: none;
+}
+
+.favorite_categories .items .reviews .review {
+    border: 1px solid black;
+    padding: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.favorite_categories .items .reviews .review .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.favorite_categories .items .reviews .review .header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 20px;
+}
+
+.favorite_categories .items .reviews .review .header .rate p {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.favorite_categories .items .reviews .review .content a {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    color: black;
+}
+
+.favorite_categories .items .reviews .review .content {
+    text-align: left;
+}
+
+.favorite_categories .items .reviews .review .content p {
+    font-family: var(--philosopher-font);
+    font-size: 1.2rem;
+    margin-top: 10px;
+}

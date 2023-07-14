@@ -1,0 +1,437 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/all.min.css">
+    <link rel="stylesheet" href="~/css/home.css">
+    <link rel="stylesheet" href="~/css/about.css">
+    <title>Nile Journey</title>
+</head>
+
+<body>
+
+    <div class="nav_container">
+        <nav>
+            <div class="logo">
+                <i class="fa-regular fa-compass" style="color: #ffffff;"></i>
+                <a class="logo_up" href="#">Nile Journey</a>
+                <ul class="navigation">
+                    <li><a href="~/Home/home">Home</a></li>
+                    <li><a href="~/Home/review">Review</a></li>
+                    <li><a href="~/Home/favorites">Favorite</a></li>
+                    <li><a href="~/Home/about">About Egypt</a></li>
+                </ul>
+            </div>
+            <div class="profile">
+                <div class="search">
+                    <input type="text" name="search">
+                    <a class="magnyfing" href="#">
+                        <i class="fa-solid fa-magnifying-glass searching"
+                           style="color: #ffffff;"></i>
+                    </a>
+                </div>
+                <div class="links">
+                    <a class="log" href="~/Home/login">Sign In</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="about">
+        <i class="fa-solid fa-angle-left left_arrow" style="color: #000000;"></i>
+        <i class="fa-solid fa-angle-right right_arrow" style="color: #000000;"></i>
+    </div>
+
+    <div class="carousel">
+        <div class="content">
+            <h1>About Egypt</h1>
+            <ul>
+                <li class="active" data-count="1">Country</li>
+                <li data-count="2">People</li>
+                <li data-count="3">Culture</li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="country show" data-count="1">
+                <p>
+                    Egypt, officially known as the Arab Republic of Egypt, is a country located in the northeastern
+                    corner of
+                    Africa. It is bordered by Libya to the west, Sudan to the south, the Red Sea to the east, and the
+                    Mediterranean Sea to the north. Egypt is known for its long and rich history, which dates back to
+                    the
+                    dawn of civilization. It is home to some of the world's most iconic landmarks, including the
+                    pyramids,
+                    the Sphinx, and the Valley of the Kings.
+                </p>
+
+                <p>
+                    Egypt's history is shaped by the Nile River, which has played a vital role in the country's
+                    development.
+                    The Nile River provided a reliable source of water for irrigation, making agriculture possible in
+                    the
+                    otherwise arid desert landscape. This allowed the ancient Egyptians to develop a complex
+                    civilization,
+                    with sophisticated systems of government, religion, and art. The Nile also served as a vital
+                    transportation route, connecting the different regions of Egypt and facilitating trade with
+                    neighboring
+                    countries.
+                </p>
+
+                <p>
+                    One of the most famous achievements of ancient Egypt is the construction of the pyramids. The
+                    pyramids
+                    were built as tombs for pharaohs and their consorts, and they are among the largest and most
+                    recognizable structures in the world. The Great Pyramid of Giza, the largest of the pyramids, was
+                    built
+                    over 4,500 years ago and is one of the Seven Wonders of the Ancient World.
+                </p>
+
+                <p>
+                    Egypt has a rich and diverse culture, with a mix of Arab, African, and Mediterranean influences.
+                    Egyptian music, art, and cuisine are all unique and reflect the country's long history and cultural
+                    heritage. Egyptian music is known for its use of traditional instruments such as the oud and the
+                    qanun,
+                    while Egyptian cuisine features dishes such as falafel, koshari, and ful medames.
+                </p>
+
+                <p>
+                    Today, Egypt is a modern and rapidly developing country. It is the most populous country in the Arab
+                    world and has a vibrant economy that is driven by sectors such as tourism, agriculture, and
+                    industry.
+                    Egypt is home to a wide range of attractions, including the ancient ruins of Luxor and Aswan, the
+                    bustling capital city of Cairo, and the beautiful beaches of the Red Sea.
+                </p>
+
+                <p>
+                    In conclusion, Egypt is a country with a rich and fascinating history, a vibrant culture, and a
+                    promising future. Its ancient landmarks and monuments continue to attract millions of visitors each
+                    year, while its modern cities and industries offer opportunities for growth and development. Egypt
+                    is a
+                    country that has played a significant role in shaping the world we live in today, and it will
+                    undoubtedly continue to do so in the years to come.
+                </p>
+            </div>
+            <div class="people" data-count="2">
+                <p>
+                    Egyptian culture is a blend of different influences, including ancient Egyptian, Islamic, and Western
+                    cultures. The country's cultural heritage dates back thousands of years, and it has left a lasting
+                    impact on the world.
+                </p>
+
+                <p>
+                    One of the most enduring aspects of Egyptian culture is its art. Ancient Egyptian art is
+                    characterized
+                    by its use of hieroglyphs, stylized figures, and intricate designs. Many of these works of art have
+                    survived to this day, and they continue to inspire artists and art enthusiasts around the world.
+                    Egyptian art has also influenced other cultures, including Greek and Roman art.
+                </p>
+
+                <p>
+                    Egyptian music is another important aspect of the country's culture. Egyptian music is known for its
+                    use
+                    of traditional instruments such as the oud, qanun, and ney. It also features distinctive rhythms and
+                    melodies that are unique to the country. Egyptian music has influenced other cultures, including
+                    Arabic
+                    and African music.
+                </p>
+
+                <p>
+                    Egyptian cuisine is also an essential part of the country's culture. Egyptian cuisine is a blend of
+                    different influences, including Arabic, African, and Mediterranean cuisine. It features dishes such
+                    as
+                    koshari, ful medames, and molokhia. Egyptian cuisine is known for its use of spices and herbs, and
+                    it is
+                    often characterized by its bold and flavorful taste.
+                </p>
+
+                <p>
+                    Religion is also a significant aspect of Egyptian culture. Islam is the predominant religion in
+                    Egypt,
+                    and it has played a vital role in shaping the country's culture and traditions. Islamic
+                    architecture,
+                    literature, and music are all important parts of Egyptian culture.
+                </p>
+
+                <p>
+                    In conclusion, Egyptian culture is a rich and diverse blend of different influences. Its ancient
+                    heritage, Islamic traditions, and Western influences have all contributed to its unique character.
+                    Egyptian art, music, and cuisine are famous around the world, and they continue to inspire and
+                    fascinate
+                    people from all walks of life.
+                </p>
+            </div>
+            <div class="culture" data-count="3">
+                <p>
+                    Egyptian culture is a blend of different influences, including ancient Egyptian, Islamic, and Western
+                    cultures. The country's cultural heritage dates back thousands of years, and it has left a lasting
+                    impact on the world.
+                </p>
+
+                <p>
+                    One of the most enduring aspects of Egyptian culture is its art. Ancient Egyptian art is
+                    characterized
+                    by its use of hieroglyphs, stylized figures, and intricate designs. Many of these works of art have
+                    survived to this day, and they continue to inspire artists and art enthusiasts around the world.
+                    Egyptian art has also influenced other cultures, including Greek and Roman art.
+                </p>
+
+                <p>
+                    Egyptian music is another important aspect of the country's culture. Egyptian music is known for its
+                    use
+                    of traditional instruments such as the oud, qanun, and ney. It also features distinctive rhythms and
+                    melodies that are unique to the country. Egyptian music has influenced other cultures, including
+                    Arabic
+                    and African music.
+                </p>
+
+                <p>
+                    Egyptian cuisine is also an essential part of the country's culture. Egyptian cuisine is a blend of
+                    different influences, including Arabic, African, and Mediterranean cuisine. It features dishes such
+                    as
+                    koshari, ful medames, and molokhia. Egyptian cuisine is known for its use of spices and herbs, and
+                    it is
+                    often characterized by its bold and flavorful taste.
+                </p>
+
+                <p>
+                    Religion is also a significant aspect of Egyptian culture. Islam is the predominant religion in
+                    Egypt,
+                    and it has played a vital role in shaping the country's culture and traditions. Islamic
+                    architecture,
+                    literature, and music are all important parts of Egyptian culture.
+                </p>
+
+                <p>
+                    In conclusion, Egyptian culture is a rich and diverse blend of different influences. Its ancient
+                    heritage, Islamic traditions, and Western influences have all contributed to its unique character.
+                    Egyptian art, music, and cuisine are famous around the world, and they continue to inspire and
+                    fascinate
+                    people from all walks of life.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <section class="subscribe">
+        <div class="container">
+            <div class="content">
+                <p>Subscribe to get all the news!</p>
+                <form action="#">
+                    <input type="email" name="email" placeholder="Enter your Email">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="infos">
+                <div class="info">
+                    <h2>About Nile Journey</h2>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                    <div class="links">
+                        <a href="#"><i class="fa-solid fa-location-dot" style="color: #000000;"></i>Cairo, Egypt</a>
+                        <a href="#"><i class="fa-solid fa-headset" style="color: #000000;"></i>+20012345678</a>
+                        <a href="#">
+                            <i class="fa-regular fa-envelope"
+                               style="color: #000000;"></i>info@nilejourney.com
+                        </a>
+                    </div>
+                </div>
+                <div class="info">
+                    <h2>Explore</h2>
+                    <div class="content">
+                        <ul class="left">
+                            <li><a href="#">About Egypt</a></li>
+                            <li><a href="#">Write a Review</a></li>
+                            <li><a href="#">Cairo</a></li>
+                            <li><a href="#">Alexandria</a></li>
+                            <li><a href="#">Aswan</a></li>
+                            <li><a href="#">Luxor</a></li>
+                        </ul>
+                        <ul class="right">
+                            <li><a href="#">Siwa</a></li>
+                            <li><a href="#">Sharm</a></li>
+                            <li><a href="#">Marsa Matrouh</a></li>
+                            <li><a href="#">Join</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Favorites</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="info">
+                    <h2>Follow Us</h2>
+                    <div class="socials">
+                        <a href=""><i class="fa-brands fa-facebook" style="color: #000000;"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter" style="color: #000000;"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube" style="color: #000000;"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let listItems = document.querySelectorAll(".carousel ul li"),
+            aboutSection = document.querySelector(".about"),
+            leftArrow = document.querySelector(".about .left_arrow"),
+            rightArrow = document.querySelector(".about .right_arrow"),
+            imgsArray = ["../img/about_img1.jpg", "../img/about_img2.PNG", "../img/about_img3.jpeg"],
+            counter = 0,
+            infoShow = document.querySelectorAll(".carousel .container div");
+
+
+        rightArrow.addEventListener("click", () => {
+            counter++
+            for (let index = 0; index < imgsArray.length; index++) {
+                const img = imgsArray[index];
+                if (counter == imgsArray.length) {
+                    counter = 0;
+                }
+                aboutSection.style.backgroundImage = `url(${imgsArray[counter]})`;
+                aboutSection.style.backgroundRepeat = "no-repeat";
+                aboutSection.style.backgroundSize = "cover";
+            }
+            for (let index = 0; index < infoShow.length; index++) {
+                const text = infoShow[index];
+                for (let index = 0; index < listItems.length; index++) {
+                    const itemMain = listItems[index];
+                    for (let index = 0; index < listItems.length; index++) {
+                        const item = listItems[index];
+                        item.classList.remove("active");
+                        listItems[counter].classList.add("active");
+                    }
+                    text.classList.remove("show");
+                    if (itemMain.classList.contains("active")) {
+                        if (itemMain.getAttribute("data-count") == 1) {
+                            infoShow[0].classList.add("show");
+                        }
+                        else if (itemMain.getAttribute("data-count") == 2) {
+                            infoShow[1].classList.add("show");
+                        }
+                        else if (itemMain.getAttribute("data-count") == 3) {
+                            infoShow[2].classList.add("show");
+                        }
+                    }
+                }
+            }
+        })
+
+        leftArrow.addEventListener("click", () => {
+            counter--
+            for (let index = 0; index < imgsArray.length; index++) {
+                const img = imgsArray[index];
+                if (counter == -1) {
+                    counter = imgsArray.length - 1;
+                }
+                aboutSection.style.backgroundImage = `url(${imgsArray[counter]})`;
+                aboutSection.style.backgroundRepeat = "no-repeat";
+                aboutSection.style.backgroundSize = "cover";
+                for (let index = 0; index < infoShow.length; index++) {
+                    const text = infoShow[index];
+                    for (let index = 0; index < listItems.length; index++) {
+                        const itemMain = listItems[index];
+                        for (let index = 0; index < listItems.length; index++) {
+                            const item = listItems[index];
+                            item.classList.remove("active");
+                            listItems[counter].classList.add("active");
+                        }
+                        text.classList.remove("show");
+                        if (itemMain.classList.contains("active")) {
+                            if (itemMain.getAttribute("data-count") == 1) {
+                                infoShow[0].classList.add("show");
+                            }
+                            else if (itemMain.getAttribute("data-count") == 2) {
+                                infoShow[1].classList.add("show");
+                            }
+                            else if (itemMain.getAttribute("data-count") == 3) {
+                                infoShow[2].classList.add("show");
+                            }
+                        }
+                    }
+                }
+            }
+        })
+
+        for (let index = 0; index < infoShow.length; index++) {
+            const info = infoShow[index];
+            for (let i = 0; i < listItems.length; i++) {
+                const item = listItems[i];
+                item.addEventListener("click", () => {
+                    for (let index = 0; index < listItems.length; index++) {
+                        const element = listItems[index];
+                        element.classList.remove("active");
+                        info.classList.remove("show");
+                    }
+                    item.classList.add("active");
+                    if (item.getAttribute("data-count") == 1) {
+                        aboutSection.style.backgroundImage = `url(${imgsArray[0]})`;
+                        aboutSection.style.backgroundRepeat = "no-repeat";
+                        aboutSection.style.backgroundSize = "cover";
+                    }
+                    else if (item.getAttribute("data-count") == 2) {
+                        aboutSection.style.backgroundImage = `url(${imgsArray[1]})`;
+                        aboutSection.style.backgroundRepeat = "no-repeat";
+                        aboutSection.style.backgroundSize = "cover";
+                    }
+                    else if (item.getAttribute("data-count") == 3) {
+                        aboutSection.style.backgroundImage = `url(${imgsArray[2]})`;
+                        aboutSection.style.backgroundRepeat = "no-repeat";
+                        aboutSection.style.backgroundSize = "cover";
+                    }
+                    if (item.getAttribute("data-count") === info.getAttribute("data-count")) {
+                        info.classList.add("show");
+                    }
+                })
+            }
+        }
+
+        ////////////////////////////////////////////////////////////////////////////////////////
+
+        let aboutContent = document.querySelector(".about .content"),
+            logoutBtn = document.querySelector(".log_out");
+
+
+        if (logoutBtn) {
+            logoutBtn.onclick = function () {
+                aboutContent.innerHTML += `<div class="log_out_screen">
+                    <h2>Logout</h2>
+                    <p>After logging out from your account you will still be able top access</p>
+                    <div class="buttons">
+                        <a href="about.html"><button class="cancel">Cancel</button></a>
+                        <a href="home.html"><button class="logout">Logout</button></a>
+                    </div>
+                </div>`
+            }
+        }
+
+        //////////////////////////////////////////////////////////////////////////////////////
+
+        let nav = document.querySelector(".nav_container");
+
+
+        window.onscroll = function () { showOverlay() };
+
+        function showOverlay() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                nav.classList.add("active");
+            } else {
+                nav.classList.remove("active");
+            }
+        }
+
+
+    </script>
+    <script defer src="~/js/about.js"></script>
+</body>

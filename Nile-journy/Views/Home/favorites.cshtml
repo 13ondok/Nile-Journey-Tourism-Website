@@ -1,0 +1,635 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+@model IEnumerable< Nile_journy.Models.Favorites>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/all.min.css">
+    <link rel="stylesheet" href="~/css/home.css">
+    <link rel="stylesheet" href="~/css/cairo.css">
+    <link rel="stylesheet" href="~/css/favourite.css">
+    <title>Nile Journey</title>
+</head>
+
+<body>
+
+    <div class="nav_container">
+        <nav>
+            <div class="logo">
+                <i class="fa-regular fa-compass" style="color: #ffffff;"></i>
+                <a class="logo_up" href="#">Nile Journey</a>
+                <ul class="navigation">
+                    <li><a href="~/Home/home">Home</a></li>
+                    <li><a href="~/Home/review">Review</a></li>
+                    <li><a href="~/Home/favorites">Favorite</a></li>
+                    <li><a href="~/Home/about">About Egypt</a></li>
+                </ul>
+            </div>
+            <div class="profile">
+                <div class="search">
+                    <input type="text" name="search">
+                    <a class="magnyfing" href="#">
+                        <i class="fa-solid fa-magnifying-glass searching"
+                           style="color: #ffffff;"></i>
+                    </a>
+                </div>
+                <div class="links">
+                    <a href="~/Home/profile"><i class="fa-solid fa-user" style="color: #ffffff;"></i></a>
+                    <a href="#" class="log_out">Log out</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="favorite_categories">
+        <div class="container">
+            <h2>Your Favorites</h2>
+            <div class="categories">
+                <div class="category active" data-count="1">
+                    <p>Hotels</p>
+                </div>
+                <div class="category" data-count="2">
+                    <p>Restaurants</p>
+                </div>
+                <div class="category" data-count="3">
+                    <p>Places</p>
+                </div>
+                <div class="category" data-count="4">
+                    <p>Events</p>
+                </div>
+                <div class="category" data-count="5">
+                    <p>Reviews</p>
+                </div>
+            </div>
+            <div class="items">
+                <div class="cards hotels active" data-count="1">
+                    <div class="card">
+                        <img src="~/img/royal-maxim-palace-kempinski (1).jpg" alt="">
+                        <div class="info">
+                            <h2>Kempinski Nile Hotel</h2>
+                            <div class="content">
+                                <div class="details">
+                                    <div class="location">
+                                        <a href="">
+                                            <i class="fa-solid fa-location-dot"
+                                               style="color: #000000;"></i>Cairo,
+                                            Egypt
+                                        </a>
+                                    </div>
+                                    <div class="more">
+                                        <a href="~/Home/cairo_hotel_1.html">Show More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="~/img/steigenberger-el-tahir.jpg" alt="">
+                        <div class="info">
+                            <h2>Steigenberger Hotel El Tahrir</h2>
+                            <div class="content">
+                                <div class="details">
+                                    <div class="location">
+                                        <a href="">
+                                            <i class="fa-solid fa-location-dot" style="color: #000000;"></i>2
+                                            Kasr El
+                                            Nile St Tahrir Square
+                                            ,Cairo Egypt
+                                        </a>
+                                    </div>
+                                    <div class="more">
+                                        <a href="#">Show More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="~/img/dusit-thani-lakeview.jpg" alt="">
+                        <div class="info">
+                            <h2>Dusit Thani LakeView</h2>
+                            <div class="content">
+                                <div class="details">
+                                    <div class="location">
+                                        <a href="">
+                                            <i class="fa-solid fa-location-dot" style="color: #000000;"></i>El
+                                            Tesseen Street City Centre, Fifth Settlement,
+                                            New Cairo, Cairo Egypt
+                                        </a>
+                                    </div>
+                                    <div class="more">
+                                        <a href="#">Show More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="~/img/lobby.jpg" alt="">
+                        <div class="info">
+                            <h2>AlMasa Hotel</h2>
+                            <div class="content">
+                                <div class="details">
+                                    <div class="location">
+                                        <a href="">
+                                            <i class="fa-solid fa-location-dot" style="color: #000000;"></i>Dr
+                                            Abd Al
+                                            Aziz Al Shennawy St,
+                                            Cairo Egypt
+                                        </a>
+                                    </div>
+                                    <div class="more">
+                                        <a href="#">Show More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="~/img/le-passage-cairo.jpg" alt="">
+                        <div class="info">
+                            <h2>Le Passage Cairo Hotel & Casino</h2>
+                            <div class="content">
+                                <div class="details">
+                                    <div class="location">
+                                        <a href="">
+                                            <i class="fa-solid fa-location-dot" style="color: #000000;"></i>Cairo
+                                            International Airport Road El Horreya-Heliopolis,
+                                            Cairo Egypt
+                                        </a>
+                                    </div>
+                                    <div class="more">
+                                        <a href="#">Show More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards restaurants active" data-count="2">
+                    <div class="card">
+                        <img src="~/img/restaurant_1.jpeg" alt="">
+                        <div class="info">
+                            <h2>Crimson Bar & Grill</h2>
+                            <div class="content">
+                                <div class="details">
+                                    <div class="location">
+                                        <a href="">
+                                            <i class="fa-solid fa-location-dot"
+                                               style="color: #000000;"></i>Cairo,
+                                            Egypt
+                                        </a>
+                                    </div>
+                                    <div class="more">
+                                        <a href="#">Show More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="~/img/restaurant_2.jpeg" alt="">
+                        <div class="info">
+                            <h2>La Zisa</h2>
+                            <div class="content">
+                                <div class="details">
+                                    <div class="location">
+                                        <a href="">
+                                            <i class="fa-solid fa-location-dot" style="color: #000000;"></i>2
+                                            Kasr El
+                                            Nile St Tahrir Square
+                                            ,Cairo Egypt
+                                        </a>
+                                    </div>
+                                    <div class="more">
+                                        <a href="#">Show More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="~/img/restaurant_3.jpeg" alt="">
+                        <div class="info">
+                            <h2>The Grill</h2>
+                            <div class="content">
+                                <div class="details">
+                                    <div class="location">
+                                        <a href="">
+                                            <i class="fa-solid fa-location-dot" style="color: #000000;"></i>El
+                                            Tesseen Street City Centre, Fifth Settlement,
+                                            New Cairo, Cairo Egypt
+                                        </a>
+                                    </div>
+                                    <div class="more">
+                                        <a href="#">Show More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="~/img/restaurant_4.jpeg" alt="">
+                        <div class="info">
+                            <h2>Roy's Smokehouse</h2>
+                            <div class="content">
+                                <div class="details">
+                                    <div class="location">
+                                        <a href="">
+                                            <i class="fa-solid fa-location-dot" style="color: #000000;"></i>Dr
+                                            Abd Al
+                                            Aziz Al Shennawy St,
+                                            Cairo Egypt
+                                        </a>
+                                    </div>
+                                    <div class="more">
+                                        <a href="#">Show More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="~/img/restaurant_5.jpeg" alt="">
+                        <div class="info">
+                            <h2>Osmanly Restaurant</h2>
+                            <div class="content">
+                                <div class="details">
+                                    <div class="location">
+                                        <a href="">
+                                            <i class="fa-solid fa-location-dot" style="color: #000000;"></i>Cairo
+                                            International Airport Road El Horreya-Heliopolis,
+                                            Cairo Egypt
+                                        </a>
+                                    </div>
+                                    <div class="more">
+                                        <a href="#">Show More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards places active" data-count="3">
+                    <div class="card">
+                        <img src="~/img/egyption musuem.jpg" alt="">
+                        <div class="info">
+                            <h2>The Egyptian Museum</h2>
+                            <div class="content">
+                                <div class="details">
+                                    <div class="location">
+                                        <a href="">
+                                            <i class="fa-solid fa-location-dot"
+                                               style="color: #000000;"></i>Cairo,
+                                            Egypt
+                                        </a>
+                                    </div>
+                                    <div class="more">
+                                        <a href="#">Show More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="~/img/khan el khalili1.jpg" alt="">
+                        <div class="info">
+                            <h2>Khan el-Khalili</h2>
+                            <div class="content">
+                                <div class="details">
+                                    <div class="location">
+                                        <a href="">
+                                            <i class="fa-solid fa-location-dot" style="color: #000000;"></i>2
+                                            Kasr El
+                                            Nile St Tahrir Square
+                                            ,Cairo Egypt
+                                        </a>
+                                    </div>
+                                    <div class="more">
+                                        <a href="#">Show More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="~/img/azhar2.jpg" alt="">
+                        <div class="info">
+                            <h2>Al-Azhar Mosque</h2>
+                            <div class="content">
+                                <div class="details">
+                                    <div class="location">
+                                        <a href="">
+                                            <i class="fa-solid fa-location-dot" style="color: #000000;"></i>El
+                                            Tesseen Street City Centre, Fifth Settlement,
+                                            New Cairo, Cairo Egypt
+                                        </a>
+                                    </div>
+                                    <div class="more">
+                                        <a href="#">Show More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="~/img/salaheldin.jpg" alt="">
+                        <div class="info">
+                            <h2>Salah El-Din Al-Ayoubi Castle</h2>
+                            <div class="content">
+                                <div class="details">
+                                    <div class="location">
+                                        <a href="">
+                                            <i class="fa-solid fa-location-dot" style="color: #000000;"></i>Dr
+                                            Abd Al
+                                            Aziz Al Shennawy St,
+                                            Cairo Egypt
+                                        </a>
+                                    </div>
+                                    <div class="more">
+                                        <a href="#">Show More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="~/img/cairo3.jpg" alt="">
+                        <div class="info">
+                            <h2>Cairo Tower</h2>
+                            <div class="content">
+                                <div class="details">
+                                    <div class="location">
+                                        <a href="">
+                                            <i class="fa-solid fa-location-dot" style="color: #000000;"></i>Cairo
+                                            International Airport Road El Horreya-Heliopolis,
+                                            Cairo Egypt
+                                        </a>
+                                    </div>
+                                    <div class="more">
+                                        <a href="#">Show More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards events" data-count="4">
+                    <div class="card">
+                        <div class="image">
+                            <img src="~/img/omarkhairat.jpg" alt="omarkhairat">
+                        </div>
+                        <div class="info">
+                            <h3>Omar Khairat Event</h3>
+                            <p>3-5-2023</p>
+                            <div class="links">
+                                <a href="#">
+                                    <i class="fa-solid fa-location-dot" style="color: #000000;"></i>Cairo Opera
+                                    House
+                                </a>
+                                <p><i class="fa-solid fa-ticket" style="color: #000000;"></i>250 LE</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="~/img/omarkhairat.jpg" alt="omarkhairat">
+                        </div>
+                        <div class="info">
+                            <h3>Omar Khairat Event</h3>
+                            <p>3-5-2023</p>
+                            <div class="links">
+                                <a href="#">
+                                    <i class="fa-solid fa-location-dot" style="color: #000000;"></i>Cairo Opera
+                                    House
+                                </a>
+                                <p><i class="fa-solid fa-ticket" style="color: #000000;"></i>250 LE</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="~/img/omarkhairat.jpg" alt="omarkhairat">
+                        </div>
+                        <div class="info">
+                            <h3>Omar Khairat Event</h3>
+                            <p>3-5-2023</p>
+                            <div class="links">
+                                <a href="#">
+                                    <i class="fa-solid fa-location-dot" style="color: #000000;"></i>Cairo Opera
+                                    House
+                                </a>
+                                <p><i class="fa-solid fa-ticket" style="color: #000000;"></i>250 LE</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="~/img/omarkhairat.jpg" alt="omarkhairat">
+                        </div>
+                        <div class="info">
+                            <h3>Omar Khairat Event</h3>
+                            <p>3-5-2023</p>
+                            <div class="links">
+                                <a href="#">
+                                    <i class="fa-solid fa-location-dot" style="color: #000000;"></i>Cairo Opera
+                                    House
+                                </a>
+                                <p><i class="fa-solid fa-ticket" style="color: #000000;"></i>250 LE</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="~/img/omarkhairat.jpg" alt="omarkhairat">
+                        </div>
+                        <div class="info">
+                            <h3>Omar Khairat Event</h3>
+                            <p>3-5-2023</p>
+                            <div class="links">
+                                <a href="#">
+                                    <i class="fa-solid fa-location-dot" style="color: #000000;"></i>Cairo Opera
+                                    House
+                                </a>
+                                <p><i class="fa-solid fa-ticket" style="color: #000000;"></i>250 LE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews">
+                    <div class="review">
+                        <div class="header">
+                            <img src="~/img/user_review_4.png" alt="">
+                            <div class="rate">
+                                <p>Salma Ahmed</p>
+                                <i class="fa-solid fa-star" style="color: #000000;"></i>
+                                <i class="fa-solid fa-star" style="color: #000000;"></i>
+                                <i class="fa-solid fa-star" style="color: #000000;"></i>
+                                <i class="fa-solid fa-star" style="color: #000000;"></i>
+                                <i class="fa-regular fa-star" style="color: #000000;"></i>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="#">cuzy and amazing</a>
+                            <p>
+                                wanderfull stay the room was very nice looking to the amazing nile view and the room was
+                                very
+                                comfertable also the hotel was very cuzy and the atmosphere was amazing i will come back
+                                again sor sure and thank to the lady in red kholoud
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="subscribe">
+        <div class="container">
+            <div class="content">
+                <p>Subscribe to get all the news!</p>
+                <form action="#">
+                    <input type="email" name="email" placeholder="Enter your Email">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="infos">
+                <div class="info">
+                    <h2>About Nile Journey</h2>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                    <div class="links">
+                        <a href="#"><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>Cairo, Egypt</a>
+                        <a href="#"><i class="fa-solid fa-headset" style="color: #ffffff;"></i>+20012345678</a>
+                        <a href="#">
+                            <i class="fa-regular fa-envelope"
+                               style="color: #ffffff;"></i>info@nilejourney.com
+                        </a>
+                    </div>
+                </div>
+                <div class="info">
+                    <h2>Explore</h2>
+                    <div class="content">
+                        <ul class="left">
+                            <li><a href="#">About Egypt</a></li>
+                            <li><a href="#">Write a Review</a></li>
+                            <li><a href="#">Cairo</a></li>
+                            <li><a href="#">Alexandria</a></li>
+                            <li><a href="#">Aswan</a></li>
+                            <li><a href="#">Luxor</a></li>
+                        </ul>
+                        <ul class="right">
+                            <li><a href="#">Siwa</a></li>
+                            <li><a href="#">Sharm</a></li>
+                            <li><a href="#">Marsa Matrouh</a></li>
+                            <li><a href="#">Join</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Favorites</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="info">
+                    <h2>Follow Us</h2>
+                    <div class="socials">
+                        <a href=""><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/cairo.js"></script>
+    <script src="js/favorite.js"></script>
+    <script>
+        let categoriesItems = document.querySelectorAll(".favorite_categories .categories .category"),
+            categoriesContent = document.querySelectorAll(".favorite_categories .items .cards");
+
+
+
+        categoriesItems.forEach((item) => {
+            item.addEventListener("click", () => {
+                for (let index = 0; index < categoriesItems.length; index++) {
+                    const element = categoriesItems[index];
+                    element.classList.remove("active");
+                }
+                for (let index = 0; index < categoriesContent.length; index++) {
+                    const category = categoriesContent[index];
+                    category.classList.remove("active");
+                    if (item.getAttribute("data-count") === category.getAttribute("data-count")) {
+                        category.classList.add("active");
+                    }
+                }
+                item.classList.add("active");
+            })
+        })
+
+        // cairo.js
+        let nav = document.querySelector(".nav_container");
+
+
+window.onscroll = function () { showOverlay() };
+
+function showOverlay() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        nav.classList.add("active");
+    } else {
+        nav.classList.remove("active");
+    }
+}
+
+/////////////////////////////////////////////////////////
+
+let itemClicker = document.querySelectorAll(".transportation .transport .cont > div"),
+    transportationContent = document.querySelectorAll(".transportation .transport .content > div");
+
+
+
+itemClicker.forEach((item) => {
+    item.addEventListener("click", (e) => {
+        e.preventDefault();
+        for (let index = 0; index < itemClicker.length; index++) {
+            const element = itemClicker[index];
+            element.classList.remove("active");
+        }
+        for (let index = 0; index < transportationContent.length; index++) {
+            const content = transportationContent[index];  
+            content.classList.remove("active");
+            if(item.getAttribute("data-count") == 1) {
+                transportationContent[0].classList.add("active");
+            }
+            else if(item.getAttribute("data-count") == 2) {
+                transportationContent[1].classList.add("active");
+            }
+            if(item.getAttribute("data-count") == 3) {
+                transportationContent[2].classList.add("active");
+            }
+        }
+        item.classList.add("active");
+    })
+})
+    </script>
+
+</body>
+</html>
+

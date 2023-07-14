@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/******************************** Global **********************************/
+
+:root {
+    --bg-color: #BA927A;
+    --footer-color: #E9D2C9;
+    --secondary-color1: #050101;
+    --secondary-color2: #2e1a0e;
+    --kaushan-font: 'Kaushan Script', cursive;
+    --lobster-font: 'Lobster', cursive;
+    --gruppo-font: 'Gruppo', cursive;
+    --cardo-font: 'Cardo', serif;
+    --avro-font: 'Arvo', serif;
+    --kodchasan: 'Kodchasan', sans-serif;
+    --robot-font: 'Roboto Slab', serif;
+    --small-card-color: #958068;
+    --special-card-color: #634137;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+
+
+.about {
+    background-image: url("../img/about_img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+    height: 100vh;
+    transition: padding .3s;
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    -ms-transition: padding .3s;
+    -o-transition: padding .3s;
+}
+
+.about .left_arrow,
+.about .right_arrow {
+    position: absolute;
+    font-size: 1.7rem;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: 50%;
+    opacity: .5;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    cursor: pointer;
+}
+
+.about .left_arrow {
+    left: 20px;
+}
+
+.about .left_arrow:hover {
+    opacity: 1;
+}
+
+.about .right_arrow {
+    right: 20px;
+}
+
+.about .right_arrow:hover {
+    opacity: 1;
+}
+
+.about .content .nav_container {
+    height: 80px;
+    margin-top: -20px;
+    padding-top: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.about .content .nav_container.active {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about .content .nav_container nav {
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .content nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+.about .content nav .logo .logo_up {
+    color: white;
+    font-size: 30px;
+    font-family: var(--lobster-font);
+    margin-left: 10px;
+}
+
+.about .content nav .logo .navigation {
+    display: flex;
+    margin-left: 50px;
+}
+
+.about .content nav .logo .navigation li {
+    margin-right: 50px;
+}
+
+.about .content nav .logo .navigation a {
+    color: white;
+    font-family: var(--cardo-font);
+    font-size: 18px;
+}
+
+.about .content .profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.about .content .profile input {
+    max-width: 600px;
+    padding: 5px 30px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-right: 10px;
+    color: white;
+}
+
+.about .content .profile .search {
+    position: relative;
+}
+
+.about .content .profile a .searching {
+    font-size: 1.4rem;
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+
+
+.about .content .profile .links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.about .content .profile .links .log {
+    font-family: var(--cardo-font);
+    color: white;
+    font-size: 18px;
+    margin-right: 5px;
+    margin-left: 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.carousel {
+    background-color: var(--bg-color);
+    text-align: center;
+    position: relative;
+}
+
+.carousel::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    height: 95%;
+    width: 2px;
+    background-color: #763E1C;
+}
+
+.carousel::after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    height: 95%;
+    width: 2px;
+    background-color: #763E1C;
+}
+
+.carousel .content {
+    padding-top: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.carousel .content h1 {
+    font-size: 3rem;
+    font-family: var(--kaushan-font);
+    margin-bottom: 20px;
+}
+
+.carousel .content ul {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.carousel .content ul::before {
+    content: "";
+    position: absolute;
+    left: 43%;
+    bottom: -10px;
+    width: 215px;
+    height: 2px;
+    background-color: white;
+}
+
+.carousel .content ul li {
+    font-family: var(--robot-font);
+    cursor: pointer;
+    position: relative;
+}
+
+.carousel .content ul li:not(:last-child) {
+    margin-right: 15px;
+}
+
+.carousel .content ul li.active::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -25px;
+    width: 100%;
+    height: 2px;
+    background-color: #763E1C;
+}
+
+.carousel .container {
+    color: white;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+
+.carousel .container>div p {
+    line-height: 1.6;
+    font-size: 1.4rem;
+    font-family: var(--robot-font);
+    text-align: left;
+}
+
+.carousel .container>div {
+    height: 0;
+    overflow: hidden;
+}
+
+.carousel .container>div.show {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+
+.log_out_screen {
+    background-color: white;
+    padding: 20px;
+    width: fit-content;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    text-align: center;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.log_out_screen h2 {
+    font-size: 2rem;
+    font-family: var(--kaushan-font);
+}
+
+.log_out_screen p {
+    font-family: var(--avro-font);
+}
+
+.log_out_screen .buttons button {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.log_out_screen .buttons .cancel {
+    background-color: transparent;
+}
+
+.log_out_screen .buttons .logout {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+footer {
+    background-color: var(--footer-color);
+    color: black;
+}
+
+footer .infos .info ul li a {
+    color: black;
+}
+
+footer .infos .info .links a {
+    color: black;
+}

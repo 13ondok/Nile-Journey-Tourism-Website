@@ -1,0 +1,97 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Nile_journy
+build_property.RootNamespace = Nile_journy
+build_property.ProjectDir = D:\bondok\Nile-journy\Nile-journy\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\bondok\Nile-journy\Nile-journy
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/bondok/Nile-journy/Nile-journy/Views/Home/about.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/bondok/Nile-journy/Nile-journy/Views/Home/Alex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/bondok/Nile-journy/Nile-journy/Views/Home/Alexhotels.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbGV4aG90ZWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/bondok/Nile-journy/Nile-journy/Views/Home/AlexPlaces.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbGV4UGxhY2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/bondok/Nile-journy/Nile-journy/Views/Home/Alexrasturant.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbGV4cmFzdHVyYW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/bondok/Nile-journy/Nile-journy/Views/Home/Alexthingstodo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbGV4dGhpbmdzdG9kby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/bondok/Nile-journy/Nile-journy/Views/Home/cairo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjYWlyby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/bondok/Nile-journy/Nile-journy/Views/Home/cairohotels.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjYWlyb2hvdGVscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/bondok/Nile-journy/Nile-journy/Views/Home/cairoplaces.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjYWlyb3BsYWNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/bondok/Nile-journy/Nile-journy/Views/Home/cairorestaurants.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjYWlyb3Jlc3RhdXJhbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/bondok/Nile-journy/Nile-journy/Views/Home/cairothingsto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjYWlyb3RoaW5nc3RvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/bondok/Nile-journy/Nile-journy/Views/Home/favorites.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxmYXZvcml0ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/bondok/Nile-journy/Nile-journy/Views/Home/home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxob21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/bondok/Nile-journy/Nile-journy/Views/Home/home_sucsses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxob21lX3N1Y3NzZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/bondok/Nile-journy/Nile-journy/Views/Home/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxsb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/bondok/Nile-journy/Nile-journy/Views/Home/privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/bondok/Nile-journy/Nile-journy/Views/Home/profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/bondok/Nile-journy/Nile-journy/Views/Home/reviews.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxyZXZpZXdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/bondok/Nile-journy/Nile-journy/Views/Home/sign_up.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzaWduX3VwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/bondok/Nile-journy/Nile-journy/Views/Home/visits.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx2aXNpdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
